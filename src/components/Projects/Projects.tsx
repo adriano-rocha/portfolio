@@ -47,7 +47,7 @@ function Projects() {
       image: "/images/dev-store.png",
       demoUrl: "https://dev-store-link.vercel.app/", 
       githubUrl: "https://github.com/adriano-rocha/dev-store",
-      technologies: ["Next.js", "React", "TypeScript", "Responsive"],
+      technologies: ["Next.js", "React", "TypeScript", "Tailwind","Responsive"],
       status: "Em desenvolvimento",
       color: "blue", 
     },
@@ -65,9 +65,21 @@ function Projects() {
     },
     {
       id: 5, 
+      title: "PetShop Page",
+      description:
+        "Site moderno para petshop desenvolvido com Next.js e TypeScript. Interface responsiva e otimizada para melhor experiência do usuário.",
+      image: "/images/petshop.png",
+      demoUrl: "https://petshop-ts-next.vercel.app/",
+      githubUrl: "https://github.com/adriano-rocha/petshop-ts-next",
+      technologies: ["Next.js", "TypeScript", "Tailwind"],
+      status: "Em desenvolvimento",
+      color: "orange", 
+    },
+    {
+      id: 6, 
       title: "New Gym",
       description:
-        "Site moderno para academia com design responsivo e animações, usando JavaScript vanilla para um código leve.",
+        "Site para academia usando React, CSS puro, responsivo.",
       image: "/images/newgym-preview.png",
       demoUrl: "https://new-gym-three.vercel.app/",
       githubUrl: "https://github.com/adriano-rocha/new-gym",
@@ -76,7 +88,19 @@ function Projects() {
       color: "green", 
     },
     {
-      id: 6,
+      id: 7,
+      title: "Auto Brilho",
+      description:
+        "Site em React/Vite para loja de higienização automotiva. Em desenvolvimento, focado em velocidade de carregamento e SEO.",
+      image: "/images/autobrilho-preview.png",
+      demoUrl: "https://github.com/adriano-rocha/site-auto-brilho.git",
+      githubUrl: "https://github.com/adriano-rocha/site-auto-brilho",
+      technologies: ["React", "Vite", "Responsive"],
+      status: "Em desenvolvimento",
+      color: "red", 
+    },
+    {
+      id: 8,
       title: "TaskFlow - Landing Page",
       description:
         "Landing page interativa para app de produtividade. Foco em UX/UI, alta performance e responsividade em todos os dispositivos.", 
@@ -88,19 +112,7 @@ function Projects() {
       color: "yellow", 
     },
     {
-      id: 7,
-      title: "Auto Brilho",
-      description:
-        "Site em React/Vite para loja de higienização automotiva. Em desenvolvimento, focado em velocidade de carregamento e SEO.",
-      image: "/images/autobrilho-preview.png",
-      demoUrl: null,
-      githubUrl: "https://github.com/adriano-rocha/site-auto-brilho",
-      technologies: ["React", "Vite", "Responsive"],
-      status: "Em desenvolvimento",
-      color: "red", 
-    },
-    {
-      id: 8, 
+      id: 9, 
       title: "To-Do List App",
       description:
         "Aplicação de lista de tarefas em React. Demonstração de gerenciamento de estado e persistência de dados local.",
