@@ -8,12 +8,17 @@ function Skills() {
     {
       name: "HTML/CSS",
       color: "orange",
-      certificates: ["/certificates/html-css.png"]
+      certificates: ["/certificates/html-css.png", "/certificates/html2.png"]
     },
     {
       name: "Javascript", 
       color: "yellow",
       certificates: ["/certificates/js.png", "/certificates/js2.png"]
+    },
+    {
+      name: "Typescript", 
+      color: "blue",
+      certificates: ["/certificates/ts.png"]
     },
     {
       name: "React",
