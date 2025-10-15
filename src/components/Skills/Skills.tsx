@@ -18,7 +18,7 @@ function Skills() {
     {
       name: "Typescript", 
       color: "blue",
-      certificates: ["/certificates/ts.png"]
+      certificates: ["/certificates/ts.png"],
     },
     {
       name: "React",

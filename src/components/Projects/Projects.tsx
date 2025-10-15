@@ -88,7 +88,19 @@ function Projects() {
       color: "green", 
     },
     {
-      id: 7,
+      id: 7, 
+      title: "Pizzaria (Stripe)",
+      description:
+        "Site de uma pizzaria fullstack com Stripe.",
+      image: "/images/pizzaria.png",
+      demoUrl: "",
+      githubUrl: "https://github.com/adriano-rocha/napoles-pizzaria",
+     technologies: ["Next.js", "Node.js", "Tailwind", "Postgresql", "Stripe","Responsive"],
+      status: "Em desenvolvimento",
+      color: "blue", 
+    },
+    {
+      id: 8,
       title: "Auto Brilho",
       description:
         "Site em React/Vite para loja de higienização automotiva. Em desenvolvimento, focado em velocidade de carregamento e SEO.",
@@ -100,7 +112,7 @@ function Projects() {
       color: "red", 
     },
     {
-      id: 8,
+      id: 9,
       title: "TaskFlow - Landing Page",
       description:
         "Landing page interativa para app de produtividade. Foco em UX/UI, alta performance e responsividade em todos os dispositivos.", 
@@ -112,7 +124,7 @@ function Projects() {
       color: "yellow", 
     },
     {
-      id: 9, 
+      id: 10, 
       title: "To-Do List App",
       description:
         "Aplicação de lista de tarefas em React. Demonstração de gerenciamento de estado e persistência de dados local.",
