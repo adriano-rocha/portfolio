@@ -7,97 +7,115 @@ import {
   FaJs,
   FaHtml5,
   FaLaptopCode,
-  FaDatabase, 
+  FaDatabase,
 } from "react-icons/fa";
-import { SiNextdotjs, SiMongodb, SiPostgresql, SiExpress } from "react-icons/si"; 
+import {
+  SiNextdotjs,
+  SiMongodb,
+  SiPostgresql,
+  SiExpress,
+  SiTailwindcss,
+} from "react-icons/si";
 
 function Projects() {
   const [isOpen, setIsOpen] = useState(false);
 
   const projects = [
     {
-      id: 1, 
+      id: 1,
       title: "Quiroclínica (Site Institucional)",
       description:
-        "Site institucional de **alta conversão** com design profissional e responsivo, focado em credibilidade e geração de agendamentos. Inclui sistema de **internacionalização (i18n)** para múltiplos idiomas.", 
+        "Site institucional de **alta conversão** com design profissional e responsivo, focado em credibilidade e geração de agendamentos. Inclui sistema de **internacionalização (i18n)** para múltiplos idiomas.",
       image: "/images/quiroclinica-preview.png",
       demoUrl: "https://site-quiroclinica.vercel.app/",
       githubUrl: "https://github.com/adriano-rocha/site-quiroclinica",
-      technologies: ["React", "CSS", "i18n", "Responsive"], 
+      technologies: ["React", "CSS", "i18n", "Responsive"],
       status: "Finalizado",
-      color: "white", 
+      color: "white",
     },
     {
-      id: 2, 
+      id: 2,
       title: "CRUD Fullstack (Gestão de Dados)",
       description:
-        "Solução completa de gestão de dados com API e interface integradas. Demonstração de arquitetura **Node.js/Express** e persistência em **MongoDB**.", 
+        "Solução completa de gestão de dados com API e interface integradas. Demonstração de arquitetura **Node.js/Express** e persistência em **MongoDB**.",
       image: "/images/crud-preview.png",
       demoUrl: "https://crud-fullstack-ivory.vercel.app",
       githubUrl: "https://github.com/adriano-rocha/crud-fullstack",
       technologies: ["React", "Node.js", "Express", "MongoDB", "Responsive"],
-      status: "Finalizado",
-      color: "yellow", 
+      status: "Em Desenvolvimento",
+      color: "yellow",
     },
     {
-      id: 3, 
-      title: "Dev Store (E-commerce Moderno)",
+      id: 3,
+      title: "PetShop Page",
       description:
-        "E-commerce moderno para demonstração de arquitetura escalável com **Next.js/TypeScript**, gerenciamento de estado e carrinho de compras.", 
-      image: "/images/dev-store.png",
-      demoUrl: "https://dev-store-link.vercel.app/", 
-      githubUrl: "https://github.com/adriano-rocha/dev-store",
-      technologies: ["Next.js", "React", "TypeScript", "Tailwind","Responsive"],
-      status: "Em desenvolvimento",
-      color: "blue", 
+        "Site moderno para petshop desenvolvido com Next.js, Tailwind. Interface responsiva e otimizada para melhor experiência do usuário.",
+      image: "/images/petshop.png",
+      demoUrl: "https://petshop-ts-next.vercel.app/",
+      githubUrl: "https://github.com/adriano-rocha/petshop-ts-next",
+      technologies: ["Next.js", "TypeScript", "Tailwind"],
+      status: "Finalizado",
+      color: "blue",
     },
     {
       id: 4,
+      title: "Dev Store (E-commerce Moderno)",
+      description:
+        "E-commerce moderno para demonstração de arquitetura escalável com **Next.js/TypeScript**, gerenciamento de estado e carrinho de compras.",
+      image: "/images/dev-store.png",
+      demoUrl: "https://dev-store-link.vercel.app/",
+      githubUrl: "https://github.com/adriano-rocha/dev-store",
+      technologies: [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Tailwind",
+        "Responsive",
+      ],
+      status: "Em desenvolvimento",
+      color: "blue",
+    },
+    {
+      id: 5,
       title: "Controle de Gastos",
       description:
-        "Aplicação para controle financeiro pessoal com dashboard interativo em React, focada em usabilidade e design limpo.", 
+        "Aplicação para controle financeiro pessoal com dashboard interativo em React, focada em usabilidade e design limpo.",
       image: "/images/expense-preview.png",
       demoUrl: "https://expense-control-five.vercel.app",
       githubUrl: "https://github.com/adriano-rocha/expense-control",
       technologies: ["React", "JavaScript", "Responsive"],
       status: "Finalizado",
-      color: "blue", 
+      color: "green",
     },
+
     {
-      id: 5, 
-      title: "PetShop Page",
-      description:
-        "Site moderno para petshop desenvolvido com Next.js e TypeScript. Interface responsiva e otimizada para melhor experiência do usuário.",
-      image: "/images/petshop.png",
-      demoUrl: "https://petshop-ts-next.vercel.app/",
-      githubUrl: "https://github.com/adriano-rocha/petshop-ts-next",
-      technologies: ["Next.js", "TypeScript", "Tailwind"],
-      status: "Em desenvolvimento",
-      color: "orange", 
-    },
-    {
-      id: 6, 
+      id: 6,
       title: "New Gym",
-      description:
-        "Site para academia usando React, CSS puro, responsivo.",
+      description: "Site para academia usando React, CSS puro, responsivo.",
       image: "/images/newgym-preview.png",
       demoUrl: "https://new-gym-three.vercel.app/",
       githubUrl: "https://github.com/adriano-rocha/new-gym",
       technologies: ["React", "CSS", "Responsive"],
       status: "Em desenvolvimento",
-      color: "green", 
+      color: "green",
     },
     {
-      id: 7, 
+      id: 7,
       title: "Pizzaria (Stripe)",
-      description:
-        "Site de uma pizzaria fullstack com Stripe.",
+      description: "Site de uma pizzaria fullstack com Stripe.",
       image: "/images/pizzaria.png",
       demoUrl: "",
       githubUrl: "https://github.com/adriano-rocha/napoles-pizzaria",
-     technologies: ["Next.js", "Node.js", "Tailwind", "Postgresql", "Stripe","Responsive"],
+      technologies: [
+        "Next.js",
+        "Node.js",
+        "Tailwind",
+        "Postgresql",
+        "Stripe",
+        "Responsive",
+      ],
       status: "Em desenvolvimento",
-      color: "blue", 
+      color: "blue",
     },
     {
       id: 8,
@@ -109,22 +127,22 @@ function Projects() {
       githubUrl: "https://github.com/adriano-rocha/site-auto-brilho",
       technologies: ["React", "Vite", "Responsive"],
       status: "Em desenvolvimento",
-      color: "red", 
+      color: "red",
     },
     {
       id: 9,
       title: "TaskFlow - Landing Page",
       description:
-        "Landing page interativa para app de produtividade. Foco em UX/UI, alta performance e responsividade em todos os dispositivos.", 
+        "Landing page interativa para app de produtividade. Foco em UX/UI, alta performance e responsividade em todos os dispositivos.",
       image: "/images/taskflow-preview.png",
       demoUrl: "https://interactive-page-brown.vercel.app/",
       githubUrl: "https://github.com/adriano-rocha/interactive-page",
       technologies: ["HTML", "CSS", "JavaScript"],
       status: "Finalizado",
-      color: "yellow", 
+      color: "yellow",
     },
     {
-      id: 10, 
+      id: 10,
       title: "To-Do List App",
       description:
         "Aplicação de lista de tarefas em React. Demonstração de gerenciamento de estado e persistência de dados local.",
@@ -133,7 +151,7 @@ function Projects() {
       githubUrl: "https://github.com/adriano-rocha/to-do",
       technologies: ["React", "JavaScript", "CSS"],
       status: "Finalizado",
-      color: "white", 
+      color: "white",
     },
   ];
 
@@ -141,24 +159,25 @@ function Projects() {
     return status === "Finalizado" ? "text-emerald-400" : "text-orange-400";
   };
 
-  const getTechIcon = (tech: string) => {
-    const icons: { [key: string]: React.ReactElement } = {
+  const getTechIcon = (tech: string): React.ReactElement | null => {
+    const icons: Record<string, React.ReactElement> = {
       React: <FaReact className="text-blue-400" />,
-      "Node.js": <FaNodeJs className="text-emerald-400" />,
-      Express: <SiExpress className="text-emerald-500" />, 
-      MongoDB: <SiMongodb className="text-green-500" />, 
-      PostgreSQL: <SiPostgresql className="text-blue-600" />, 
+      "Node.js": <FaNodeJs className="text-emerald-500" />,
+      Express: <SiExpress className="text-gray-500" />,
+      MongoDB: <SiMongodb className="text-green-500" />,
+      PostgreSQL: <SiPostgresql className="text-blue-600" />,
       JavaScript: <FaJs className="text-yellow-400" />,
       "Next.js": <SiNextdotjs className="text-white" />,
       TypeScript: <span className="text-blue-400 font-bold">TS</span>,
-      "Tailwind CSS": <span className="text-cyan-400 font-bold">TW</span>, 
+      "Tailwind CSS": <SiTailwindcss className="text-cyan-300" />,
       HTML: <FaHtml5 className="text-orange-400" />,
-      CSS: <span className="text-blue-300 font-bold">CSS</span>,
-      i18n: <span className="text-green-400 font-bold">🌐</span>,
-      Vite: <span className="text-purple-400 font-bold">VITE</span>,
-      Responsive: <span className="text-cyan-400">📱</span>,
+      CSS: <span className="text-purple-500 font-bold">CSS</span>,
+      i18n: <span className="text-gray-400 font-bold">🌐</span>,
+      Vite: <span className="text-blue-400 font-bold">VITE</span>,
+      Responsive: <span className="text-red-200">📱</span>,
     };
-    return icons[tech] || <span className="text-gray-400">{tech}</span>;
+
+    return icons[tech] || null;
   };
 
   if (!isOpen) {
@@ -173,7 +192,7 @@ function Projects() {
         >
           <h2 className="text-2xl font-bold text-emerald-400 mb-2">
             Portfólio de Soluções
-          </h2> 
+          </h2>
           <p className="text-gray-300 text-sm mb-4">
             Meus sistemas e aplicações que entregam valor.
           </p>
@@ -206,7 +225,9 @@ function Projects() {
         >
           ← Voltar
         </button>
-        <h2 className="text-3xl font-bold text-emerald-400">Portfólio de Soluções</h2>
+        <h2 className="text-3xl font-bold text-emerald-400">
+          Portfólio de Soluções
+        </h2>
         <div></div>
       </div>
 
@@ -214,7 +235,6 @@ function Projects() {
         {projects.map((project) => (
           <div
             key={project.id}
-            
             className={`bg-gray-800 border-2 border-${project.color}-400 rounded-lg overflow-hidden hover:bg-${project.color}-400/10 transition-all duration-300 hover:scale-105 group`}
           >
             <div className="relative h-48 bg-gray-700 overflow-hidden">
