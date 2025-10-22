@@ -3,7 +3,20 @@ import Skills from "./components/Skills/Skills";
 import Projects from "./components/Projects/Projects";
 import Contact from "./components/Contact/Contact";
 
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 function App() {
+    useEffect(() => {
+    AOS.init({
+      duration: 1000, // duração da animação em ms
+      once: false, // se true, anima apenas uma vez
+      mirror: true, // anima ao fazer scroll para cima também
+    });
+  }, []);
+
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-700 text-white">
       <nav className="flex justify-between items-center px-8 py-6">

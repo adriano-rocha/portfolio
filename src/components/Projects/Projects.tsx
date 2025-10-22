@@ -189,6 +189,9 @@ function Projects() {
         <button
           onClick={() => setIsOpen(true)}
           className="bg-gray-800 hover:bg-emerald-400/20 border-2 border-emerald-400 px-12 py-6 rounded-lg transition-all duration-300 hover:scale-105 group"
+          data-aos="zoom-in"
+          data-aos-duration="800"
+
         >
           <h2 className="text-2xl font-bold text-emerald-400 mb-2">
             Portfólio de Soluções
@@ -232,10 +235,13 @@ function Projects() {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-full">
-        {projects.map((project) => (
+        {projects.map((project, index) => (
           <div
             key={project.id}
             className={`bg-gray-800 border-2 border-${project.color}-400 rounded-lg overflow-hidden hover:bg-${project.color}-400/10 transition-all duration-300 hover:scale-105 group`}
+            data-aos="fade-up"
+            data-aos-delay={index * 80}
+            data-aos-duration="700"
           >
             <div className="relative h-48 bg-gray-700 overflow-hidden">
               {project.image ? (

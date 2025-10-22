@@ -30,20 +30,37 @@ function Contact() {
       className="min-h-screen flex items-center justify-center px-8 max-w-4xl mx-auto"
     >
       <div className="text-center">
-        <h2 className="text-4xl font-bold mb-4">
+        <h2 
+          className="text-4xl font-bold mb-4"
+          data-aos="fade-down"
+          data-aos-duration="800"
+          >
           Entre em <span className="text-gray-300">Contato</span>
         </h2>
-        <p className="text-emerald-400 text-xl mb-2">
+        <p 
+          className="text-emerald-400 text-xl mb-2"
+           data-aos="fade-up"
+           data-aos-delay="200"
+          >
           Vamos conversar sobre seu projeto
         </p>
-        <p className="text-gray-100 mb-12 max-w-md mx-auto">
+        <p 
+          className="text-gray-100 mb-12 max-w-md mx-auto"
+          data-aos="fade-up"
+          data-aos-delay="400"
+          >
           <i>
             Estou sempre aberto a novas oportunidades e colaborações. Utilize o
             canal que preferir.
           </i>
         </p>
 
-        <div className="flex items-center justify-center gap-8">
+        <div 
+          className="flex items-center justify-center gap-8"
+          data-aos="zoom-in"
+          data-aos-delay="600"
+          data-aos-duration="1000"
+          >
           {/* Botão WhatsApp */}
           <a
             href="https://wa.me/5582998273188"
@@ -79,6 +96,9 @@ function Contact() {
             onClick={handleCopyEmail}
             title={copied ? "E-mail Copiado!" : "Copiar E-mail"}
             className="bg-gray-800 border-2 border-red-400 p-4 rounded-full shadow-lg shadow-red-400/50 hover:shadow-red-400/80 hover:scale-110 transition-all duration-300 cursor-pointer group relative"
+            data-aos="flip-left"
+            data-aos-delay="1100"
+
           >
             <FaEnvelope className="text-red-400 text-2xl group-hover:text-red-300 transition-colors duration-300" />
 

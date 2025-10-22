@@ -90,6 +90,8 @@ function Skills() {
         <button
           onClick={() => setIsOpen(true)}
           className="bg-gray-800 hover:bg-emerald-400/20 border-2 border-emerald-400 px-12 py-6 rounded-lg transition-all duration-300 hover:scale-105 group"
+          data-aos="flip-up"
+          data-aos-duration="800"
         >
           <h2 className="text-2xl font-bold text-emerald-400 mb-2">Skills</h2>
           <p className="text-gray-300 text-sm mb-4">Tecnologias de Mercado. Competência</p>
@@ -134,6 +136,9 @@ function Skills() {
             <div 
               key={skillIndex}
               className={`bg-gray-800 border-2 ${styles.border} rounded-lg overflow-hidden ${styles.hover} transition-all duration-300 hover:scale-105 group`}
+              data-aos="fade-up"
+              data-aos-delay={skillIndex * 100} // Cada card aparece 100ms depois do anterior
+              data-aos-duration="600"
             >
               <div className="p-6 text-center">
                 <h3 className={`text-xl font-semibold ${styles.text} mb-4`}>
