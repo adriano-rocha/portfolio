@@ -153,6 +153,30 @@ function Projects() {
       status: "Finalizado",
       color: "white",
     },
+    {
+      id: 11,
+      title: "Kerotur - Agência de Turismo",
+      description:
+        "Site moderno para agência de turismo com sistema de internacionalização e animações suaves usando AOS. Design responsivo e experiência premium.",
+      image: "/images/kerotur.png",
+      demoUrl: null,
+      githubUrl: "https://github.com/adriano-rocha/kerotur",
+      technologies: ["React", "Tailwind CSS", "i18n", "Responsive"],
+      status: "Em desenvolvimento",
+      color: "yellow",
+    },
+    {
+      id: 12,
+      title: "Staybnb",
+      description:
+        "Clone do Airbnb com funcionalidades de reserva e listagem de propriedades. Arquitetura fullstack com React, Tailwind e MongoDB.",
+      image: "/images/staybnb.png",
+      demoUrl: null,
+      githubUrl: "https://github.com/adriano-rocha/staybnb",
+      technologies: ["React", "Tailwind CSS", "MongoDB"],
+      status: "Em desenvolvimento",
+      color: "green",
+    }
   ];
 
   const getStatusColor = (status: string) => {

@@ -1,6 +1,28 @@
 import { FaReact, FaNodeJs } from "react-icons/fa";
 
 function Home() {
+  const handleCVClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    e.preventDefault();
+    
+    const password = prompt(
+      "Este CV é exclusivo para recrutadores.\n\n" +
+      "Digite a senha de 4 dígitos para acessar:\n\n" +
+      "(Solicite a senha via WhatsApp, Email ou LinkedIn)"
+    );
+    
+    if (password === "1723") {
+      window.open("/certificates/cv-adriano-rocha.pdf", "_blank");
+    } else if (password) {
+      alert(
+        "Senha incorreta.\n\n" +
+        "Para solicitar a senha, entre em contato via:\n" +
+        "• WhatsApp: (82) 99827-3188\n" +
+        "• Email: adrianorocha.dev@gmail.com\n" +
+        "• LinkedIn: /in/adriano-rocha-464044305"
+      );
+    }
+  };
+
   return (
     <section
       id="home"
@@ -22,14 +44,14 @@ function Home() {
           className="text-emerald-400 text-lg sm:text-xl mb-2"
           data-aos="fade-up"
           data-aos-delay="400"  
-          >
+        >
           Analista e Desenvolvedor de Sistemas para Web.
         </p>
         <p 
           className="text-gray-100 mb-8 max-w-md mx-auto lg:mx-0"
           data-aos="fade-up"
           data-aos-delay="600"
-          >
+        >
           <strong>
             Desenvolvimento que resolve problemas e garante o crescimento do seu
             negócio. Eu planejo, crio e entrego sistemas e sites completos que
@@ -42,7 +64,7 @@ function Home() {
           className="mt-8 lg:mt-12 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-3"
           data-aos="fade-up"
           data-aos-delay="800"
-          >
+        >
           <a
             href="https://wa.me/5582998273188"
             target="_blank"
@@ -53,10 +75,10 @@ function Home() {
           </a>
           <a
             href="/certificates/cv-adriano-rocha.pdf"
-            download="CV-Adriano-Rocha.pdf"
-            className="bg-gray-900 hover:bg-gray-700 text-white border border-gray-600 px-6 sm:px-8 py-3 rounded-full font-medium transition-colors inline-block text-center w-full sm:w-auto"
+            onClick={handleCVClick}
+            className="bg-gray-900 hover:bg-gray-500 text-white border border-gray-600 px-6 sm:px-8 py-3 rounded-full font-medium transition-colors inline-block text-center w-full sm:w-auto"
           >
-            Download CV
+            CV 
           </a>
         </div>
       </div>
@@ -66,7 +88,7 @@ function Home() {
         data-aos="zoom-in"
         data-aos-duration="1000"
         data-aos-delay="300"
-        >
+      >
         <div className="relative">
           <div className="w-64 h-64 sm:w-72 sm:h-72 lg:w-80 lg:h-80 rounded-full overflow-hidden shadow-lg border-4 border-emerald-400">
             <img
@@ -80,7 +102,7 @@ function Home() {
             className="absolute top-4 sm:top-6 lg:top-8 left-2 sm:left-3 lg:left-4 bg-gray-800 border-2 border-cyan-400 p-2 rounded-full shadow-lg shadow-cyan-400/50 hover:shadow-cyan-400/80 hover:scale-110 hover:bg-cyan-400/10 transition-all duration-300 cursor-pointer"
             data-aos="fade-down-right"
             data-aos-delay="1000"
-            >
+          >
             <FaReact className="text-cyan-400 text-base sm:text-lg" />
           </div>
 
@@ -88,7 +110,7 @@ function Home() {
             className="absolute bottom-4 sm:bottom-6 lg:bottom-8 right-2 sm:right-3 lg:right-4 bg-gray-800 border-2 border-emerald-400 p-2 rounded-full shadow-lg shadow-emerald-400/50 hover:shadow-emerald-400/80 hover:scale-110 hover:bg-emerald-400/10 transition-all duration-300 cursor-pointer"
             data-aos="fade-up-left"
             data-aos-delay="1200"
-            >
+          >
             <FaNodeJs className="text-emerald-400 text-base sm:text-lg" />
           </div>
         </div>
