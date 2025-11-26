@@ -123,7 +123,7 @@ function Projects() {
       description:
         "Site em React/Vite para loja de higienização automotiva. Em desenvolvimento, focado em velocidade de carregamento e SEO.",
       image: "/images/autobrilho-preview.png",
-      demoUrl: "https://github.com/adriano-rocha/site-auto-brilho.git",
+      demoUrl: "https://site-auto-brilho.vercel.app/",
       githubUrl: "https://github.com/adriano-rocha/site-auto-brilho",
       technologies: ["React", "Vite", "Responsive"],
       status: "Em desenvolvimento",
