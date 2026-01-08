@@ -66,7 +66,7 @@ function Projects() {
       demoUrl: "https://site-kerotur-jxe8.vercel.app/",
       githubUrl: "https://github.com/adriano-rocha/kerotur",
       technologies: ["React", "Tailwind CSS", "i18n", "Responsive"],
-      status: "Em desenvolvimento",
+      status: "Finalizado",
       color: "yellow",
     },
 
