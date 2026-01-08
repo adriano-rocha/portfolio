@@ -23,18 +23,30 @@ function Projects() {
   const projects = [
     {
       id: 1,
-      title: "Quiroclínica (Site Institucional)",
+      title: "To-Do List App",
       description:
-        "Site institucional de **alta conversão** com design profissional e responsivo, focado em credibilidade e geração de agendamentos. Inclui sistema de **internacionalização (i18n)** para múltiplos idiomas.",
-      image: "/images/quiroclinica-preview.png",
-      demoUrl: "https://site-quiroclinica.vercel.app/",
-      githubUrl: "https://github.com/adriano-rocha/site-quiroclinica",
-      technologies: ["React", "CSS", "i18n", "Responsive"],
+        "Aplicação de lista de tarefas em React. Demonstração de gerenciamento de estado e persistência de dados local.",
+      image: "/images/todo-preview.png",
+      demoUrl: "https://to-do-ochre-xi.vercel.app",
+      githubUrl: "https://github.com/adriano-rocha/to-do",
+      technologies: ["React", "JavaScript", "CSS"],
       status: "Finalizado",
       color: "white",
     },
     {
       id: 2,
+      title: "Auto Brilho",
+      description:
+        "Site em React/Vite para loja de higienização automotiva. Em desenvolvimento, focado em velocidade de carregamento e SEO.",
+      image: "/images/auto_shine.png",
+      demoUrl: "https://site-auto-brilho.vercel.app/",
+      githubUrl: "https://github.com/adriano-rocha/site-auto-brilho",
+      technologies: ["React", "Vite", "Responsive"],
+      status: "Em desenvolvimento",
+      color: "red",
+    },
+    {
+      id: 3,
       title: "CRUD Fullstack (Gestão de Dados)",
       description:
         "Solução completa de gestão de dados com API e interface integradas. Demonstração de arquitetura **Node.js/Express** e persistência em **MongoDB**.",
@@ -46,7 +58,44 @@ function Projects() {
       color: "yellow",
     },
     {
-      id: 3,
+      id: 4,
+      title: "Kerotur - Agência de Turismo",
+      description:
+        "Site moderno para agência de turismo com sistema de internacionalização e animações suaves usando AOS. Design responsivo e experiência premium.",
+      image: "/images/kerotur.png",
+      demoUrl: "https://site-kerotur-jxe8.vercel.app/",
+      githubUrl: "https://github.com/adriano-rocha/kerotur",
+      technologies: ["React", "Tailwind CSS", "i18n", "Responsive"],
+      status: "Em desenvolvimento",
+      color: "yellow",
+    },
+
+    {
+      id: 5,
+      title: "Controle de Gastos",
+      description:
+        "Aplicação para controle financeiro pessoal com dashboard interativo em React, focada em usabilidade e design limpo.",
+      image: "/images/expense-preview.png",
+      demoUrl: "https://expense-control-five.vercel.app",
+      githubUrl: "https://github.com/adriano-rocha/expense-control",
+      technologies: ["React", "JavaScript", "Responsive"],
+      status: "Finalizado",
+      color: "green",
+    },
+    {
+      id: 6,
+      title: "New Gym",
+      description: "Site para academia usando React, CSS puro, responsivo.",
+      image: "/images/newgym-preview.png",
+      demoUrl: "https://new-gym-three.vercel.app/",
+      githubUrl: "https://github.com/adriano-rocha/new-gym",
+      technologies: ["React", "CSS", "Responsive"],
+      status: "Em desenvolvimento",
+      color: "green",
+    },
+
+    {
+      id: 7,
       title: "PetShop Page",
       description:
         "Site moderno para petshop desenvolvido com Next.js, Tailwind. Interface responsiva e otimizada para melhor experiência do usuário.",
@@ -58,7 +107,7 @@ function Projects() {
       color: "blue",
     },
     {
-      id: 4,
+      id: 8,
       title: "Dev Store (E-commerce Moderno)",
       description:
         "E-commerce moderno para demonstração de arquitetura escalável com **Next.js/TypeScript**, gerenciamento de estado e carrinho de compras.",
@@ -75,32 +124,9 @@ function Projects() {
       status: "Em desenvolvimento",
       color: "blue",
     },
-    {
-      id: 5,
-      title: "Controle de Gastos",
-      description:
-        "Aplicação para controle financeiro pessoal com dashboard interativo em React, focada em usabilidade e design limpo.",
-      image: "/images/expense-preview.png",
-      demoUrl: "https://expense-control-five.vercel.app",
-      githubUrl: "https://github.com/adriano-rocha/expense-control",
-      technologies: ["React", "JavaScript", "Responsive"],
-      status: "Finalizado",
-      color: "green",
-    },
 
     {
-      id: 6,
-      title: "New Gym",
-      description: "Site para academia usando React, CSS puro, responsivo.",
-      image: "/images/newgym-preview.png",
-      demoUrl: "https://new-gym-three.vercel.app/",
-      githubUrl: "https://github.com/adriano-rocha/new-gym",
-      technologies: ["React", "CSS", "Responsive"],
-      status: "Em desenvolvimento",
-      color: "green",
-    },
-    {
-      id: 7,
+      id: 9,
       title: "Pizzaria (Stripe)",
       description: "Site de uma pizzaria fullstack com Stripe.",
       image: "/images/pizzaria.png",
@@ -118,19 +144,31 @@ function Projects() {
       color: "blue",
     },
     {
-      id: 8,
-      title: "Auto Brilho",
+      id: 4,
+      title: "Quiroclínica (Site Institucional)",
       description:
-        "Site em React/Vite para loja de higienização automotiva. Em desenvolvimento, focado em velocidade de carregamento e SEO.",
-      image: "/images/autobrilho-preview.png",
-      demoUrl: "https://site-auto-brilho.vercel.app/",
-      githubUrl: "https://github.com/adriano-rocha/site-auto-brilho",
-      technologies: ["React", "Vite", "Responsive"],
-      status: "Em desenvolvimento",
-      color: "red",
+        "Site institucional de **alta conversão** com design profissional e responsivo, focado em credibilidade e geração de agendamentos. Inclui sistema de **internacionalização (i18n)** para múltiplos idiomas.",
+      image: "/images/quiroclinica-preview.png",
+      demoUrl: "https://site-quiroclinica.vercel.app/",
+      githubUrl: "https://github.com/adriano-rocha/site-quiroclinica",
+      technologies: ["React", "CSS", "i18n", "Responsive"],
+      status: "Finalizado",
+      color: "white",
     },
     {
-      id: 9,
+      id: 11,
+      title: "Staybnb",
+      description:
+        "Clone do Airbnb com funcionalidades de reserva e listagem de propriedades. Arquitetura fullstack com React, Tailwind e MongoDB.",
+      image: "/images/staybnb.png",
+      demoUrl: null,
+      githubUrl: "https://github.com/adriano-rocha/staybnb",
+      technologies: ["React", "Tailwind CSS", "MongoDB"],
+      status: "Em desenvolvimento",
+      color: "green",
+    },
+    {
+      id: 12,
       title: "TaskFlow - Landing Page",
       description:
         "Landing page interativa para app de produtividade. Foco em UX/UI, alta performance e responsividade em todos os dispositivos.",
@@ -141,42 +179,6 @@ function Projects() {
       status: "Finalizado",
       color: "yellow",
     },
-    {
-      id: 10,
-      title: "To-Do List App",
-      description:
-        "Aplicação de lista de tarefas em React. Demonstração de gerenciamento de estado e persistência de dados local.",
-      image: "/images/todo-preview.png",
-      demoUrl: "https://to-do-ochre-xi.vercel.app",
-      githubUrl: "https://github.com/adriano-rocha/to-do",
-      technologies: ["React", "JavaScript", "CSS"],
-      status: "Finalizado",
-      color: "white",
-    },
-    {
-      id: 11,
-      title: "Kerotur - Agência de Turismo",
-      description:
-        "Site moderno para agência de turismo com sistema de internacionalização e animações suaves usando AOS. Design responsivo e experiência premium.",
-      image: "/images/kerotur.png",
-      demoUrl: null,
-      githubUrl: "https://github.com/adriano-rocha/kerotur",
-      technologies: ["React", "Tailwind CSS", "i18n", "Responsive"],
-      status: "Em desenvolvimento",
-      color: "yellow",
-    },
-    {
-      id: 12,
-      title: "Staybnb",
-      description:
-        "Clone do Airbnb com funcionalidades de reserva e listagem de propriedades. Arquitetura fullstack com React, Tailwind e MongoDB.",
-      image: "/images/staybnb.png",
-      demoUrl: null,
-      githubUrl: "https://github.com/adriano-rocha/staybnb",
-      technologies: ["React", "Tailwind CSS", "MongoDB"],
-      status: "Em desenvolvimento",
-      color: "green",
-    }
   ];
 
   const getStatusColor = (status: string) => {
@@ -215,7 +217,6 @@ function Projects() {
           className="bg-gray-800 hover:bg-emerald-400/20 border-2 border-emerald-400 px-12 py-6 rounded-lg transition-all duration-300 hover:scale-105 group"
           data-aos="zoom-in"
           data-aos-duration="800"
-
         >
           <h2 className="text-2xl font-bold text-emerald-400 mb-2">
             Portfólio de Soluções
