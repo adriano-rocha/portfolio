@@ -16,7 +16,7 @@ function Home() {
       alert(
         "Senha incorreta.\n\n" +
         "Para solicitar a senha, entre em contato via:\n" +
-        "• WhatsApp: (82) 99827-3188\n" +
+        "• WhatsApp: (11) 922145103\n" +
         "• Email: adrianorocha.dev@gmail.com\n" +
         "• LinkedIn: /in/adriano-rocha-464044305"
       );
@@ -66,7 +66,7 @@ function Home() {
           data-aos-delay="800"
         >
           <a
-            href="https://wa.me/5582998273188"
+            href="https://wa.me/5511922145103"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-emerald-400 hover:bg-emerald-600 text-gray-900 px-6 sm:px-8 py-3 rounded-full font-semibold transition-colors inline-block text-center w-full sm:w-auto"

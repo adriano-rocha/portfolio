@@ -7,17 +7,17 @@ function Contact() {
 
   // Função para copiar o e-mail para a área de transferência
   const handleCopyEmail = () => {
-    // Verifica se a API de cópia está disponível
+    
     if (navigator.clipboard) {
       navigator.clipboard.writeText(emailAddress);
       setCopied(true);
 
-      // Reseta o status 'Copiado' após 2 segundos
+      
       setTimeout(() => {
         setCopied(false);
       }, 2000);
     } else {
-      // Fallback para navegadores antigos (opcional: usar a tag <a> mailto: )
+     
       alert(
         `Seu navegador não suporta a cópia direta. Por favor, utilize o endereço: ${emailAddress}`
       );
@@ -61,9 +61,9 @@ function Contact() {
           data-aos-delay="600"
           data-aos-duration="1000"
           >
-          {/* Botão WhatsApp */}
+         
           <a
-            href="https://wa.me/5582998273188"
+            href="https://wa.me/5511922145103"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-gray-800 border-2 border-green-400 p-4 rounded-full shadow-lg shadow-green-400/50 hover:shadow-green-400/80 hover:scale-110 hover:bg-green-400/10 transition-all duration-300 cursor-pointer group"
@@ -71,7 +71,7 @@ function Contact() {
             <FaWhatsapp className="text-green-400 text-2xl group-hover:text-green-300 transition-colors duration-300" />
           </a>
 
-          {/* Botão GitHub */}
+          
           <a
             href="https://github.com/adriano-rocha"
             target="_blank"
@@ -81,7 +81,7 @@ function Contact() {
             <FaGithub className="text-gray-400 text-2xl group-hover:text-white transition-colors duration-300" />
           </a>
 
-          {/* Botão LinkedIn */}
+          
           <a
             href="https://www.linkedin.com/in/adriano-rocha-464044305/"
             target="_blank"
