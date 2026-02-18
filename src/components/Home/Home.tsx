@@ -74,7 +74,7 @@ function Home() {
             Fale Comigo Agora
           </a>
           <a
-            href="/certificates/cv-adriano-rocha.pdf"
+            href="/certificates/Adriano_Rocha_cv.docx"
             onClick={handleCVClick}
             className="bg-gray-900 hover:bg-gray-500 text-white border border-gray-600 px-6 sm:px-8 py-3 rounded-full font-medium transition-colors inline-block text-center w-full sm:w-auto"
           >
