@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { FaReact, FaNodeJs, FaHtml5, FaJs, FaGitAlt, FaDatabase } from 'react-icons/fa';
+import { SiPython } from 'react-icons/si';
 
 function Skills() {
   const [isOpen, setIsOpen] = useState(false);
@@ -31,6 +32,11 @@ function Skills() {
       certificates: ["/certificates/node.png", "/certificates/node2.png", "/certificates/node3.png"]
     },
     {
+      name: "Python",        // ✅ Adicionado
+      color: "yellow",
+      certificates: ["/certificates/python.png"]
+    },
+    {
       name: "Banco de Dados",
       color: "blue",
       certificates: ["/certificates/db.png", "/certificates/sql.png"]
@@ -42,38 +48,18 @@ function Skills() {
     }
   ];
 
-    const getSkillStyles = (color: string) => {
+  const getSkillStyles = (color: string) => {
     switch (color) {
       case 'orange':
-        return {
-          border: 'border-orange-400',
-          text: 'text-orange-400',
-          hover: 'hover:bg-orange-400/10'
-        };
+        return { border: 'border-orange-400', text: 'text-orange-400', hover: 'hover:bg-orange-400/10' };
       case 'yellow':
-        return {
-          border: 'border-yellow-400',
-          text: 'text-yellow-400',
-          hover: 'hover:bg-yellow-400/10'
-        };
+        return { border: 'border-yellow-400', text: 'text-yellow-400', hover: 'hover:bg-yellow-400/10' };
       case 'blue':
-        return {
-          border: 'border-blue-400',
-          text: 'text-blue-400',
-          hover: 'hover:bg-blue-400/10'
-        };
+        return { border: 'border-blue-400', text: 'text-blue-400', hover: 'hover:bg-blue-400/10' };
       case 'green':
-        return {
-          border: 'border-green-400',
-          text: 'text-green-400',
-          hover: 'hover:bg-green-400/10'
-        };
+        return { border: 'border-green-400', text: 'text-green-400', hover: 'hover:bg-green-400/10' };
       default:
-        return {
-          border: 'border-gray-400',
-          text: 'text-gray-400',
-          hover: 'hover:bg-gray-400/10'
-        };
+        return { border: 'border-gray-400', text: 'text-gray-400', hover: 'hover:bg-gray-400/10' };
     }
   };
 
@@ -99,6 +85,7 @@ function Skills() {
           <div className="flex justify-center gap-4">
             <FaHtml5 className="text-orange-500 text-2xl group-hover:scale-110 transition-transform" />
             <FaJs className="text-yellow-500 text-2xl group-hover:scale-110 transition-transform" />
+            <SiPython className="text-blue-400 text-2xl group-hover:scale-110 transition-transform" /> 
             <FaReact className="text-blue-600 text-2xl group-hover:scale-110 transition-transform" />
             <FaNodeJs className="text-green-600 text-2xl group-hover:scale-110 transition-transform" />
             <FaDatabase className="text-blue-800 text-2xl group-hover:scale-110 transition-transform" />
@@ -137,7 +124,7 @@ function Skills() {
               key={skillIndex}
               className={`bg-gray-800 border-2 ${styles.border} rounded-lg overflow-hidden ${styles.hover} transition-all duration-300 hover:scale-105 group`}
               data-aos="fade-up"
-              data-aos-delay={skillIndex * 100} // Cada card aparece 100ms depois do anterior
+              data-aos-delay={skillIndex * 100}
               data-aos-duration="600"
             >
               <div className="p-6 text-center">

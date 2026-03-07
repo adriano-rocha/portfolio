@@ -15,6 +15,7 @@ import {
   SiPostgresql,
   SiExpress,
   SiTailwindcss,
+  SiPython,
 } from "react-icons/si";
 
 function Projects() {
@@ -35,30 +36,50 @@ function Projects() {
     },
     {
       id: 2,
-      title: "Auto Brilho",
-      description:
-        "Site em React/Vite para loja de higienização automotiva. Em desenvolvimento, focado em velocidade de carregamento e SEO.",
-      image: "/images/auto_shine.png",
-      demoUrl: "https://site-auto-brilho.vercel.app/",
-      githubUrl: "https://github.com/adriano-rocha/site-auto-brilho",
-      technologies: ["React", "Vite", "Responsive"],
-      status: "Em desenvolvimento",
-      color: "red",
-    },
-    {
-      id: 3,
       title: "CRUD Fullstack (Gestão de Dados)",
       description:
         "Solução completa de gestão de dados com API e interface integradas. Demonstração de arquitetura **Node.js/Express** e persistência em **MongoDB**.",
       image: "/images/crud-preview.png",
-      demoUrl: "https://crud-fullstack-ivory.vercel.app",
+      demoUrl: "https://crud-student-registration.vercel.app/",
       githubUrl: "https://github.com/adriano-rocha/crud-fullstack",
       technologies: ["React", "Node.js", "Express", "MongoDB", "Responsive"],
       status: "Em Desenvolvimento",
       color: "yellow",
     },
     {
+      id: 3,
+      title: "SaaS - Agendamentos para Clínicas",
+      description:
+        "Plataforma de gestão de consultas (Next.js/Node.js). Arquitetura escalável com foco em performance, agendamento em tempo real.",
+      image: "/images/page_clinic.png",
+      demoUrl: "",
+      githubUrl: "https://github.com/adriano-rocha/clinic_schedules",
+      technologies: [
+        "Next",
+        "Typescript",
+        "Tailwind",
+        "Nodejs",
+        "Drizzle-ORM",
+        "Zod",
+      ],
+      status: "Em desenvolvimento",
+      color: "blue",
+    },
+    {
       id: 4,
+      title: "B3 - Radar",
+      description:
+        "Dashboard de monitoramento em tempo real para o mercado financeiro (B3). Desenvolvido em Python/Streamlit, focado na análise de Blue Chips, acompanhamento de índices e alertas inteligentes de preços.",
+      image: "/images/b3radar_img.png",
+      demoUrl: "https://b3radar-market-finance.streamlit.app/",
+      githubUrl: "https://github.com/adriano-rocha/B3Radar",
+      technologies: ["Python", "Streamlit", "Responsive"],
+      status: "Em desenvolvimento",
+      color: "green",
+    },
+
+    {
+      id: 5,
       title: "Kerotur - Agência de Turismo",
       description:
         "Site moderno para agência de turismo com sistema de internacionalização e animações suaves usando AOS. Design responsivo e experiência premium.",
@@ -66,12 +87,12 @@ function Projects() {
       demoUrl: "https://site-kerotur-jxe8.vercel.app/",
       githubUrl: "https://github.com/adriano-rocha/kerotur",
       technologies: ["React", "Tailwind CSS", "i18n", "Responsive"],
-      status: "Finalizado",
+      status: "Em Desenvolvimento",
       color: "yellow",
     },
 
     {
-      id: 5,
+      id: 6,
       title: "Controle de Gastos",
       description:
         "Aplicação para controle financeiro pessoal com dashboard interativo em React, focada em usabilidade e design limpo.",
@@ -83,19 +104,43 @@ function Projects() {
       color: "green",
     },
     {
-      id: 6,
-      title: "New Gym",
-      description: "Site para academia usando React, CSS puro, responsivo.",
-      image: "/images/newgym-preview.png",
-      demoUrl: "https://new-gym-three.vercel.app/",
-      githubUrl: "https://github.com/adriano-rocha/new-gym",
-      technologies: ["React", "CSS", "Responsive"],
-      status: "Em desenvolvimento",
-      color: "green",
-    },
-
-    {
       id: 7,
+      title: "CRUD - Django",
+      description:
+        "Módulo de registro de usuários em Django/Python. Em desenvolvimento, focado em flexibilidade de dados, suporte a upload de mídia e integração com endereçamento.",
+      image: "/images/crud_django.png",
+      demoUrl: "",
+      githubUrl: "https://github.com/adriano-rocha/registration_system",
+      technologies: ["Python - Django"],
+      status: "Em Desenvolvimento",
+      color: "blue",
+    },
+    {
+      id: 8,
+      title: "Quiroclínica (Site Institucional)",
+      description:
+        "Site institucional de **alta conversão** com design profissional e responsivo, focado em credibilidade e geração de agendamentos. Inclui sistema de **internacionalização (i18n)** para múltiplos idiomas.",
+      image: "/images/quiroclinica-preview.png",
+      demoUrl: "https://quiroclinico.com.br/",
+      githubUrl: "https://github.com/adriano-rocha/site-quiroclinica",
+      technologies: ["React", "CSS", "i18n", "Responsive"],
+      status: "Finalizado",
+      color: "white",
+    },
+    {
+      id: 9,
+      title: "Auto Brilho",
+      description:
+        "Site em React/Vite para loja de higienização automotiva. Em desenvolvimento, focado em velocidade de carregamento e SEO.",
+      image: "/images/auto_shine.png",
+      demoUrl: "https://site-auto-brilho.vercel.app/",
+      githubUrl: "https://github.com/adriano-rocha/site-auto-brilho",
+      technologies: ["React", "Vite", "Responsive"],
+      status: "Em desenvolvimento",
+      color: "red",
+    },
+    {
+      id: 10,
       title: "PetShop Page",
       description:
         "Site moderno para petshop desenvolvido com Next.js, Tailwind. Interface responsiva e otimizada para melhor experiência do usuário.",
@@ -107,7 +152,7 @@ function Projects() {
       color: "blue",
     },
     {
-      id: 8,
+      id: 11,
       title: "Dev Store (E-commerce Moderno)",
       description:
         "E-commerce moderno para demonstração de arquitetura escalável com **Next.js/TypeScript**, gerenciamento de estado e carrinho de compras.",
@@ -124,9 +169,20 @@ function Projects() {
       status: "Em desenvolvimento",
       color: "blue",
     },
+    {
+      id: 12,
+      title: "New Gym",
+      description: "Site para academia usando React, CSS puro, responsivo.",
+      image: "/images/newgym-preview.png",
+      demoUrl: "https://new-gym-three.vercel.app/",
+      githubUrl: "https://github.com/adriano-rocha/new-gym",
+      technologies: ["React", "CSS", "Responsive"],
+      status: "Em desenvolvimento",
+      color: "green",
+    },
 
     {
-      id: 9,
+      id: 13,
       title: "Pizzaria (Stripe)",
       description: "Site de uma pizzaria fullstack com Stripe.",
       image: "/images/pizzaria.png",
@@ -144,19 +200,7 @@ function Projects() {
       color: "blue",
     },
     {
-      id: 4,
-      title: "Quiroclínica (Site Institucional)",
-      description:
-        "Site institucional de **alta conversão** com design profissional e responsivo, focado em credibilidade e geração de agendamentos. Inclui sistema de **internacionalização (i18n)** para múltiplos idiomas.",
-      image: "/images/quiroclinica-preview.png",
-      demoUrl: "https://site-quiroclinica.vercel.app/",
-      githubUrl: "https://github.com/adriano-rocha/site-quiroclinica",
-      technologies: ["React", "CSS", "i18n", "Responsive"],
-      status: "Finalizado",
-      color: "white",
-    },
-    {
-      id: 11,
+      id: 14,
       title: "Staybnb",
       description:
         "Clone do Airbnb com funcionalidades de reserva e listagem de propriedades. Arquitetura fullstack com React, Tailwind e MongoDB.",
@@ -168,7 +212,7 @@ function Projects() {
       color: "green",
     },
     {
-      id: 12,
+      id: 15,
       title: "TaskFlow - Landing Page",
       description:
         "Landing page interativa para app de produtividade. Foco em UX/UI, alta performance e responsividade em todos os dispositivos.",
@@ -193,6 +237,7 @@ function Projects() {
       MongoDB: <SiMongodb className="text-green-500" />,
       PostgreSQL: <SiPostgresql className="text-blue-600" />,
       JavaScript: <FaJs className="text-yellow-400" />,
+      Python: <SiPython className="text-blue-400" />,
       "Next.js": <SiNextdotjs className="text-white" />,
       TypeScript: <span className="text-blue-400 font-bold">TS</span>,
       "Tailwind CSS": <SiTailwindcss className="text-cyan-300" />,
@@ -286,7 +331,7 @@ function Projects() {
               <div className="absolute top-2 right-2">
                 <span
                   className={`px-2 py-1 text-xs rounded-full bg-gray-900/80 ${getStatusColor(
-                    project.status
+                    project.status,
                   )}`}
                 >
                   {project.status}

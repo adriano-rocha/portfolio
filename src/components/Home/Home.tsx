@@ -92,7 +92,7 @@ function Home() {
         <div className="relative">
           <div className="w-64 h-64 sm:w-72 sm:h-72 lg:w-80 lg:h-80 rounded-full overflow-hidden shadow-lg border-4 border-emerald-400">
             <img
-              src="/images/me.jpeg"
+              src="/images/me_new.jpeg"
               alt="Adriano Rocha"
               className="w-full h-full object-cover object-center"
             />
