@@ -11,7 +11,7 @@ function Home() {
     );
     
     if (password === "1723") {
-      window.open("/certificates/cv-adriano-rocha.pdf", "_blank");
+      window.open("/certificates/adriano_rocha_cv.docx", "_blank");
     } else if (password) {
       alert(
         "Senha incorreta.\n\n" +
