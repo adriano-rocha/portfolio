@@ -91,7 +91,7 @@ function Projects() {
       color: "yellow",
     },
 
-    {
+     {
       id: 6,
       title: "Controle de Gastos",
       description:
@@ -103,8 +103,21 @@ function Projects() {
       status: "Finalizado",
       color: "green",
     },
+
     {
       id: 7,
+      title: "Monarca Jóias - Landing page premium ",
+      description:
+        "Landing page premium para joalheria — React, TypeScript, Tailwind CSS, Framer Motion e i18n (PT/EN/ES).",
+      image: "/images/monarca.png",
+      demoUrl: "https://monarcajoias.com.br",
+      githubUrl: "https://github.com/adriano-rocha/monarca-joias",
+      technologies: ["React", "TypeScript", "Tailwind CSS, Framer Motion, i18n (PT/EN/ES)"],
+      status: "Finalizado",
+      color: "gold",
+    },
+    {
+      id: 8,
       title: "CRUD - Django",
       description:
         "Módulo de registro de usuários em Django/Python. Em desenvolvimento, focado em flexibilidade de dados, suporte a upload de mídia e integração com endereçamento.",
@@ -116,7 +129,7 @@ function Projects() {
       color: "blue",
     },
     {
-      id: 8,
+      id: 9,
       title: "Quiroclínica (Site Institucional)",
       description:
         "Site institucional de **alta conversão** com design profissional e responsivo, focado em credibilidade e geração de agendamentos. Inclui sistema de **internacionalização (i18n)** para múltiplos idiomas.",
@@ -128,7 +141,7 @@ function Projects() {
       color: "white",
     },
     {
-      id: 9,
+      id: 10,
       title: "Auto Brilho",
       description:
         "Site em React/Vite para loja de higienização automotiva. Em desenvolvimento, focado em velocidade de carregamento e SEO.",
@@ -140,7 +153,7 @@ function Projects() {
       color: "red",
     },
     {
-      id: 10,
+      id: 11,
       title: "PetShop Page",
       description:
         "Site moderno para petshop desenvolvido com Next.js, Tailwind. Interface responsiva e otimizada para melhor experiência do usuário.",
@@ -152,7 +165,7 @@ function Projects() {
       color: "blue",
     },
     {
-      id: 11,
+      id: 12,
       title: "Dev Store (E-commerce Moderno)",
       description:
         "E-commerce moderno para demonstração de arquitetura escalável com **Next.js/TypeScript**, gerenciamento de estado e carrinho de compras.",
@@ -170,7 +183,7 @@ function Projects() {
       color: "blue",
     },
     {
-      id: 12,
+      id: 13,
       title: "New Gym",
       description: "Site para academia usando React, CSS puro, responsivo.",
       image: "/images/newgym-preview.png",
@@ -182,7 +195,7 @@ function Projects() {
     },
 
     {
-      id: 13,
+      id: 14,
       title: "Pizzaria (Stripe)",
       description: "Site de uma pizzaria fullstack com Stripe.",
       image: "/images/pizzaria.png",
@@ -200,7 +213,7 @@ function Projects() {
       color: "blue",
     },
     {
-      id: 14,
+      id: 15,
       title: "Staybnb",
       description:
         "Clone do Airbnb com funcionalidades de reserva e listagem de propriedades. Arquitetura fullstack com React, Tailwind e MongoDB.",
@@ -212,7 +225,7 @@ function Projects() {
       color: "green",
     },
     {
-      id: 15,
+      id: 16,
       title: "TaskFlow - Landing Page",
       description:
         "Landing page interativa para app de produtividade. Foco em UX/UI, alta performance e responsividade em todos os dispositivos.",
