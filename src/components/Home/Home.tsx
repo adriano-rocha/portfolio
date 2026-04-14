@@ -50,23 +50,11 @@ function Home() {
         >
           Analista e Desenvolvedor de Sistemas para Web.
         </p>
-        <p
-          className="text-gray-100 mb-8 max-w-md mx-auto lg:mx-0"
-          data-aos="fade-up"
-          data-aos-delay="600"
-        >
-          <strong>
-            Desenvolvimento que resolve problemas e garante o crescimento do seu
-            negócio. Eu planejo, crio e entrego sistemas e sites completos que
-            funcionam perfeitamente do conceito à implementação final. Sua ideia
-            ganha vida com uma base técnica robusta, segura e fácil de usar.
-          </strong>
-        </p>
 
         <div
           className="mt-8 lg:mt-12 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-3"
           data-aos="fade-up"
-          data-aos-delay="800"
+          data-aos-delay="600"
         >
           <a
             href="https://wa.me/5511922145103"

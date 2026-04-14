@@ -19,7 +19,7 @@ function Skills() {
     {
       name: "Typescript", 
       color: "blue",
-      certificates: ["/certificates/ts.png"],
+      certificates: ["/certificates/ts.png", "/certificates/typescript.png"],
     },
     {
       name: "React",
@@ -32,9 +32,9 @@ function Skills() {
       certificates: ["/certificates/node.png", "/certificates/node2.png", "/certificates/node3.png"]
     },
     {
-      name: "Python",        // ✅ Adicionado
+      name: "Python",
       color: "yellow",
-      certificates: ["/certificates/python.png"]
+      certificates: ["/certificates/cert_python.pdf"]
     },
     {
       name: "Banco de Dados",
@@ -139,11 +139,21 @@ function Skills() {
                       onClick={() => handleCertificateClick(certificate)}
                       className="relative cursor-pointer group/cert"
                     >
-                      <img
-                        src={certificate}
-                        alt={`${skill.name} Certificate ${certIndex + 1}`}
-                        className="w-full h-32 object-cover rounded border-2 border-gray-600 hover:border-white transition-colors"
-                      />
+                      {certificate.endsWith('.pdf') ? (
+                        <div className="w-full h-32 rounded border-2 border-gray-600 hover:border-white transition-colors bg-gray-700 flex flex-col items-center justify-center gap-2">
+                          <svg xmlns="http://www.w3.org/2000/svg" className="w-10 h-10 text-red-400" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm-1 1.5L18.5 9H13V3.5zM6 20V4h5v7h7v9H6z"/>
+                            <text x="5" y="18" fontSize="5" fill="currentColor" fontWeight="bold">PDF</text>
+                          </svg>
+                          <span className="text-red-400 text-xs font-semibold">PDF</span>
+                        </div>
+                      ) : (
+                        <img
+                          src={certificate}
+                          alt={`${skill.name} Certificate ${certIndex + 1}`}
+                          className="w-full h-32 object-cover rounded border-2 border-gray-600 hover:border-white transition-colors"
+                        />
+                      )}
                       <div className="absolute inset-0 bg-black/50 opacity-0 group-hover/cert:opacity-100 transition-opacity rounded flex items-center justify-center">
                         <span className="text-white text-sm font-medium">Ver certificado</span>
                       </div>

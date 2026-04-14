@@ -1,4 +1,5 @@
 import Home from "./components/Home/Home";
+import About from "./components/About/About";
 import Skills from "./components/Skills/Skills";
 import Projects from "./components/Projects/Projects";
 import Contact from "./components/Contact/Contact";
@@ -10,9 +11,9 @@ import 'aos/dist/aos.css';
 function App() {
     useEffect(() => {
     AOS.init({
-      duration: 1000, // duração da animação em ms
-      once: false, // se true, anima apenas uma vez
-      mirror: true, // anima ao fazer scroll para cima também
+      duration: 1000,
+      once: false,
+      mirror: true,
     });
   }, []);
 
@@ -43,6 +44,7 @@ function App() {
         </div>
       </nav>
       <Home />
+      <About />
       <Skills />
       <Projects />
       <Contact />
