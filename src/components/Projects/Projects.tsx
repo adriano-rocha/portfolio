@@ -92,7 +92,7 @@ function Projects() {
       description:
         "Site institucional de **alta conversão** com design profissional e responsivo, focado em credibilidade e geração de agendamentos. Inclui sistema de **internacionalização (i18n)** para múltiplos idiomas.",
       image: "/images/quiroclinica-preview.png",
-      demoUrl: "https://quiroclinico.com.br/",
+      demoUrl: "https://quiroclinica.com.br/",
       githubUrl: "https://github.com/adriano-rocha/site-quiroclinica",
       technologies: ["React", "CSS", "i18n", "Responsive"],
       status: "Finalizado",
