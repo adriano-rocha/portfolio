@@ -198,7 +198,7 @@ function Projects() {
       description:
         "E-commerce moderno para demonstração de arquitetura escalável com **Next.js/TypeScript**, gerenciamento de estado e carrinho de compras.",
       image: "/images/dev-store.png",
-      demoUrl: "https://dev-store-link.vercel.app/",
+      demoUrl: "https://newdev-store.vercel.app/",
       githubUrl: "https://github.com/adriano-rocha/dev-store",
       technologies: [
         "Next.js",
