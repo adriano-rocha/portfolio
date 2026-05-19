@@ -36,42 +36,6 @@ function Projects() {
     },
     {
       id: 2,
-      title: "Quiroclínica (Site Institucional)",
-      description:
-        "Site institucional de **alta conversão** com design profissional e responsivo, focado em credibilidade e geração de agendamentos. Inclui sistema de **internacionalização (i18n)** para múltiplos idiomas.",
-      image: "/images/quiroclinica-preview.png",
-      demoUrl: "https://quiroclinico.com.br/",
-      githubUrl: "https://github.com/adriano-rocha/site-quiroclinica",
-      technologies: ["React", "CSS", "i18n", "Responsive"],
-      status: "Finalizado",
-      color: "white",
-    },
-    {
-      id: 3,
-      title: "To-Do List App",
-      description:
-        "Aplicação de lista de tarefas em React. Demonstração de gerenciamento de estado e persistência de dados local.",
-      image: "/images/todo-preview.png",
-      demoUrl: "https://to-do-ochre-xi.vercel.app",
-      githubUrl: "https://github.com/adriano-rocha/to-do",
-      technologies: ["React", "JavaScript", "CSS"],
-      status: "Finalizado",
-      color: "white",
-    },
-    {
-      id: 4,
-      title: "Kerotur - Agência de Turismo",
-      description:
-        "Site moderno para agência de turismo com sistema de internacionalização e animações suaves usando AOS. Design responsivo e experiência premium.",
-      image: "/images/kerotur.png",
-      demoUrl: "https://site-kerotur-jxe8.vercel.app/",
-      githubUrl: "https://github.com/adriano-rocha/kerotur",
-      technologies: ["React", "Tailwind CSS", "i18n", "Responsive"],
-      status: "Em Desenvolvimento",
-      color: "yellow",
-    },
-    {
-      id: 5,
       title: "Monarca Jóias - Landing page premium ",
       description:
         "Landing page premium para joalheria — React, TypeScript, Tailwind CSS, Framer Motion e i18n (PT/EN/ES).",
@@ -87,43 +51,19 @@ function Projects() {
       color: "gold",
     },
     {
-      id: 6,
-      title: "CRUD Fullstack (Gestão de Dados)",
+      id: 3,
+      title: "To-Do List App",
       description:
-        "Solução completa de gestão de dados com API e interface integradas. Demonstração de arquitetura **Node.js/Express** e persistência em **MongoDB**.",
-      image: "/images/crud-preview.png",
-      demoUrl: "https://crud-student-registration.vercel.app/",
-      githubUrl: "https://github.com/adriano-rocha/crud-fullstack",
-      technologies: ["React", "Node.js", "Express", "MongoDB", "Responsive"],
-      status: "Em Desenvolvimento",
-      color: "yellow",
-    },
-    {
-      id: 7,
-      title: "Auto Brilho",
-      description:
-        "Site em React/Vite para loja de higienização automotiva. Em desenvolvimento, focado em velocidade de carregamento e SEO.",
-      image: "/images/auto_shine.png",
-      demoUrl: "https://site-auto-brilho.vercel.app/",
-      githubUrl: "https://github.com/adriano-rocha/site-auto-brilho",
-      technologies: ["React", "Vite", "Responsive"],
+        "Aplicação de lista de tarefas em React. Demonstração de gerenciamento de estado e persistência de dados local.",
+      image: "/images/todo-preview.png",
+      demoUrl: "https://to-do-ochre-xi.vercel.app",
+      githubUrl: "https://github.com/adriano-rocha/to-do",
+      technologies: ["React", "JavaScript", "CSS"],
       status: "Finalizado",
-      color: "red",
+      color: "white",
     },
     {
-      id: 8,
-      title: "B3 - Radar",
-      description:
-        "Dashboard de monitoramento em tempo real para o mercado financeiro (B3). Desenvolvido em Python/Streamlit, focado na análise de Blue Chips, acompanhamento de índices e alertas inteligentes de preços.",
-      image: "/images/b3radar_img.png",
-      demoUrl: "https://b3radar-market-finance.streamlit.app/",
-      githubUrl: "https://github.com/adriano-rocha/B3Radar",
-      technologies: ["Python", "Streamlit", "Responsive"],
-      status: "Em desenvolvimento",
-      color: "green",
-    },
-    {
-      id: 9,
+      id: 4,
       title: "Marcele Nutri",
       description:
         "Landing page em Next.js para nutricionista, com identidade visual personalizada, seções de planos com toggle PIX/Cartão, FAQ, avaliação antropométrica e conformidade com LGPD.",
@@ -135,7 +75,82 @@ function Projects() {
       color: "rose",
     },
     {
+      id: 5,
+      title: "CRUD Fullstack (Gestão de Dados)",
+      description:
+        "Solução completa de gestão de dados com API e interface integradas. Demonstração de arquitetura **Node.js/Express** e persistência em **MongoDB**.",
+      image: "/images/crud-preview.png",
+      demoUrl: "https://crud-student-registration.vercel.app/",
+      githubUrl: "https://github.com/adriano-rocha/crud-fullstack",
+      technologies: ["React", "Node.js", "Express", "MongoDB", "Responsive"],
+      status: "Em Desenvolvimento",
+      color: "yellow",
+    },
+    {
+      id: 6,
+      title: "Quiroclínica (Site Institucional)",
+      description:
+        "Site institucional de **alta conversão** com design profissional e responsivo, focado em credibilidade e geração de agendamentos. Inclui sistema de **internacionalização (i18n)** para múltiplos idiomas.",
+      image: "/images/quiroclinica-preview.png",
+      demoUrl: "https://quiroclinico.com.br/",
+      githubUrl: "https://github.com/adriano-rocha/site-quiroclinica",
+      technologies: ["React", "CSS", "i18n", "Responsive"],
+      status: "Finalizado",
+      color: "white",
+    },
+    {
+      id: 7,
+      title: "Silva Advogados - One-Page",
+      description:
+        "Site institucional para escritório de advocacia — Next, TypeScript, Tailwind CSS, SEO, CTA.",
+      image: "/images/adv.png",
+      demoUrl: "https://adv-silva.vercel.app/",
+      githubUrl: "https://github.com/adriano-rocha/one-page-lawyer",
+      technologies: ["Next", "TypeScript", "Tailwind CSS", "Responsive"],
+      status: "Finalizado",
+      color: "gold",
+    },
+
+    {
+      id: 8,
+      title: "Kerotur - Agência de Turismo",
+      description:
+        "Site moderno para agência de turismo com sistema de internacionalização e animações suaves usando AOS. Design responsivo e experiência premium.",
+      image: "/images/kerotur.png",
+      demoUrl: "https://site-kerotur-jxe8.vercel.app/",
+      githubUrl: "https://github.com/adriano-rocha/kerotur",
+      technologies: ["React", "Tailwind CSS", "i18n", "Responsive"],
+      status: "Em Desenvolvimento",
+      color: "yellow",
+    },
+
+    {
+      id: 9,
+      title: "Auto Brilho",
+      description:
+        "Site em React/Vite para loja de higienização automotiva. Em desenvolvimento, focado em velocidade de carregamento e SEO.",
+      image: "/images/auto_shine.png",
+      demoUrl: "https://site-auto-brilho.vercel.app/",
+      githubUrl: "https://github.com/adriano-rocha/site-auto-brilho",
+      technologies: ["React", "Vite", "Responsive"],
+      status: "Finalizado",
+      color: "red",
+    },
+    {
       id: 10,
+      title: "B3 - Radar",
+      description:
+        "Dashboard de monitoramento em tempo real para o mercado financeiro (B3). Desenvolvido em Python/Streamlit, focado na análise de Blue Chips, acompanhamento de índices e alertas inteligentes de preços.",
+      image: "/images/b3radar_img.png",
+      demoUrl: "https://b3radar-market-finance.streamlit.app/",
+      githubUrl: "https://github.com/adriano-rocha/B3Radar",
+      technologies: ["Python", "Streamlit", "Responsive"],
+      status: "Em desenvolvimento",
+      color: "green",
+    },
+
+    {
+      id: 11,
       title: "SaaS - Agendamentos para Clínicas",
       description:
         "Plataforma de gestão de consultas (Next.js/Node.js). Arquitetura escalável com foco em performance, agendamento em tempo real.",
@@ -154,7 +169,7 @@ function Projects() {
       color: "blue",
     },
     {
-      id: 11,
+      id: 12,
       title: "CRUD - Django",
       description:
         "Módulo de registro de usuários em Django/Python. Em desenvolvimento, focado em flexibilidade de dados, suporte a upload de mídia e integração com endereçamento.",
@@ -166,7 +181,7 @@ function Projects() {
       color: "blue",
     },
     {
-      id: 12,
+      id: 13,
       title: "PetShop Page",
       description:
         "Site moderno para petshop desenvolvido com Next.js, Tailwind. Interface responsiva e otimizada para melhor experiência do usuário.",
@@ -178,7 +193,7 @@ function Projects() {
       color: "blue",
     },
     {
-      id: 13,
+      id: 14,
       title: "Dev Store (E-commerce Moderno)",
       description:
         "E-commerce moderno para demonstração de arquitetura escalável com **Next.js/TypeScript**, gerenciamento de estado e carrinho de compras.",
@@ -196,7 +211,7 @@ function Projects() {
       color: "blue",
     },
     {
-      id: 14,
+      id: 15,
       title: "New Gym",
       description: "Site para academia usando React, CSS puro, responsivo.",
       image: "/images/newgym-preview.png",
@@ -207,7 +222,7 @@ function Projects() {
       color: "green",
     },
     {
-      id: 15,
+      id: 16,
       title: "Pizzaria (Stripe)",
       description: "Site de uma pizzaria fullstack com Stripe.",
       image: "/images/pizzaria.png",
@@ -225,7 +240,7 @@ function Projects() {
       color: "blue",
     },
     {
-      id: 16,
+      id: 17,
       title: "Staybnb",
       description:
         "Clone do Airbnb com funcionalidades de reserva e listagem de propriedades. Arquitetura fullstack com React, Tailwind e MongoDB.",
@@ -237,7 +252,7 @@ function Projects() {
       color: "green",
     },
     {
-      id: 17,
+      id: 18,
       title: "TaskFlow - Landing Page",
       description:
         "Landing page interativa para app de produtividade. Foco em UX/UI, alta performance e responsividade em todos os dispositivos.",
