@@ -98,8 +98,26 @@ function Projects() {
       status: "Finalizado",
       color: "white",
     },
-    {
+     {
       id: 7,
+      title: "Pizzaria (Stripe)",
+      description: "Site de uma pizzaria fullstack com Stripe.",
+      image: "/images/pizzaria.png",
+      demoUrl: "",
+      githubUrl: "https://github.com/adriano-rocha/napoles-pizzaria",
+      technologies: [
+        "Next.js",
+        "Node.js",
+        "Tailwind",
+        "Postgresql",
+        "Stripe",
+        "Responsive",
+      ],
+      status: "Em desenvolvimento",
+      color: "blue",
+    },
+    {
+      id: 8,
       title: "Silva Advogados - One-Page",
       description:
         "Site institucional para escritório de advocacia — Next, TypeScript, Tailwind CSS, SEO, CTA.",
@@ -112,7 +130,7 @@ function Projects() {
     },
 
     {
-      id: 8,
+      id: 9,
       title: "Kerotur - Agência de Turismo",
       description:
         "Site moderno para agência de turismo com sistema de internacionalização e animações suaves usando AOS. Design responsivo e experiência premium.",
@@ -125,7 +143,7 @@ function Projects() {
     },
 
     {
-      id: 9,
+      id: 10,
       title: "Auto Brilho",
       description:
         "Site em React/Vite para loja de higienização automotiva. Em desenvolvimento, focado em velocidade de carregamento e SEO.",
@@ -137,7 +155,7 @@ function Projects() {
       color: "red",
     },
     {
-      id: 10,
+      id: 11,
       title: "B3 - Radar",
       description:
         "Dashboard de monitoramento em tempo real para o mercado financeiro (B3). Desenvolvido em Python/Streamlit, focado na análise de Blue Chips, acompanhamento de índices e alertas inteligentes de preços.",
@@ -150,7 +168,7 @@ function Projects() {
     },
 
     {
-      id: 11,
+      id: 12,
       title: "SaaS - Agendamentos para Clínicas",
       description:
         "Plataforma de gestão de consultas (Next.js/Node.js). Arquitetura escalável com foco em performance, agendamento em tempo real.",
@@ -169,7 +187,7 @@ function Projects() {
       color: "blue",
     },
     {
-      id: 12,
+      id: 13,
       title: "CRUD - Django",
       description:
         "Módulo de registro de usuários em Django/Python. Em desenvolvimento, focado em flexibilidade de dados, suporte a upload de mídia e integração com endereçamento.",
@@ -181,7 +199,7 @@ function Projects() {
       color: "blue",
     },
     {
-      id: 13,
+      id: 14,
       title: "PetShop Page",
       description:
         "Site moderno para petshop desenvolvido com Next.js, Tailwind. Interface responsiva e otimizada para melhor experiência do usuário.",
@@ -193,7 +211,7 @@ function Projects() {
       color: "blue",
     },
     {
-      id: 14,
+      id: 15,
       title: "Dev Store (E-commerce Moderno)",
       description:
         "E-commerce moderno para demonstração de arquitetura escalável com **Next.js/TypeScript**, gerenciamento de estado e carrinho de compras.",
@@ -211,7 +229,7 @@ function Projects() {
       color: "blue",
     },
     {
-      id: 15,
+      id: 16,
       title: "New Gym",
       description: "Site para academia usando React, CSS puro, responsivo.",
       image: "/images/newgym-preview.png",
@@ -220,25 +238,7 @@ function Projects() {
       technologies: ["React", "CSS", "Responsive"],
       status: "Em desenvolvimento",
       color: "green",
-    },
-    {
-      id: 16,
-      title: "Pizzaria (Stripe)",
-      description: "Site de uma pizzaria fullstack com Stripe.",
-      image: "/images/pizzaria.png",
-      demoUrl: "",
-      githubUrl: "https://github.com/adriano-rocha/napoles-pizzaria",
-      technologies: [
-        "Next.js",
-        "Node.js",
-        "Tailwind",
-        "Postgresql",
-        "Stripe",
-        "Responsive",
-      ],
-      status: "Em desenvolvimento",
-      color: "blue",
-    },
+    },   
     {
       id: 17,
       title: "Staybnb",
