@@ -50,20 +50,9 @@ function Projects() {
       status: "Finalizado",
       color: "gold",
     },
+
     {
       id: 3,
-      title: "To-Do List App",
-      description:
-        "Aplicação de lista de tarefas em React. Demonstração de gerenciamento de estado e persistência de dados local.",
-      image: "/images/todo-preview.png",
-      demoUrl: "https://to-do-ochre-xi.vercel.app",
-      githubUrl: "https://github.com/adriano-rocha/to-do",
-      technologies: ["React", "JavaScript", "CSS"],
-      status: "Finalizado",
-      color: "white",
-    },
-    {
-      id: 4,
       title: "Marcele Nutri",
       description:
         "Landing page em Next.js para nutricionista, com identidade visual personalizada, seções de planos com toggle PIX/Cartão, FAQ, avaliação antropométrica e conformidade com LGPD.",
@@ -72,7 +61,7 @@ function Projects() {
       githubUrl: "https://github.com/adriano-rocha/marcele_nutri",
       technologies: ["Next.js", "TypeScript", "Tailwind", "Responsive"],
       status: "Finalizado",
-      color: "rose",
+      color: "red",
     },
     {
       id: 5,
@@ -83,11 +72,24 @@ function Projects() {
       demoUrl: "https://crud-student-registration.vercel.app/",
       githubUrl: "https://github.com/adriano-rocha/crud-fullstack",
       technologies: ["React", "Node.js", "Express", "MongoDB", "Responsive"],
-      status: "Em Desenvolvimento",
+      status: "Finalizado",
       color: "yellow",
     },
     {
       id: 6,
+      title: "i9 Criação de Sites",
+      description:
+        "🚀 Portfolio institucional da i9 — Site de alta performance com SSG, SEO otimizado e animações com Framer Motion. Lighthouse Score 95+",
+      image: "/images/i9.png",
+      demoUrl: "https://portfolio-i9.vercel.app/",
+      githubUrl: "https://github.com/adriano-rocha/crud-fullstack",
+      technologies: ["Next.js", "TypeScript", "Tailwind CSS"],
+      status: "Em Desenvolvimento",
+      color: "blue",
+    },
+
+    {
+      id: 7,
       title: "Quiroclínica (Site Institucional)",
       description:
         "Site institucional de **alta conversão** com design profissional e responsivo, focado em credibilidade e geração de agendamentos. Inclui sistema de **internacionalização (i18n)** para múltiplos idiomas.",
@@ -96,10 +98,10 @@ function Projects() {
       githubUrl: "https://github.com/adriano-rocha/site-quiroclinica",
       technologies: ["React", "CSS", "i18n", "Responsive"],
       status: "Finalizado",
-      color: "white",
+      color: "green",
     },
-     {
-      id: 7,
+    {
+      id: 8,
       title: "Pizzaria (Stripe)",
       description: "Site de uma pizzaria fullstack com Stripe.",
       image: "/images/pizzaria.png",
@@ -114,10 +116,10 @@ function Projects() {
         "Responsive",
       ],
       status: "Em desenvolvimento",
-      color: "blue",
+      color: "red",
     },
     {
-      id: 8,
+      id: 9,
       title: "Silva Advogados - One-Page",
       description:
         "Site institucional para escritório de advocacia — Next, TypeScript, Tailwind CSS, SEO, CTA.",
@@ -130,7 +132,7 @@ function Projects() {
     },
 
     {
-      id: 9,
+      id: 10,
       title: "Kerotur - Agência de Turismo",
       description:
         "Site moderno para agência de turismo com sistema de internacionalização e animações suaves usando AOS. Design responsivo e experiência premium.",
@@ -141,9 +143,21 @@ function Projects() {
       status: "Em Desenvolvimento",
       color: "yellow",
     },
+    {
+      id: 11,
+      title: "To-Do List App",
+      description:
+        "Aplicação de lista de tarefas em React. Demonstração de gerenciamento de estado e persistência de dados local.",
+      image: "/images/todo-preview.png",
+      demoUrl: "https://to-do-ochre-xi.vercel.app",
+      githubUrl: "https://github.com/adriano-rocha/to-do",
+      technologies: ["React", "JavaScript", "CSS"],
+      status: "Finalizado",
+      color: "white",
+    },
 
     {
-      id: 10,
+      id: 12,
       title: "Auto Brilho",
       description:
         "Site em React/Vite para loja de higienização automotiva. Em desenvolvimento, focado em velocidade de carregamento e SEO.",
@@ -155,7 +169,7 @@ function Projects() {
       color: "red",
     },
     {
-      id: 11,
+      id: 13,
       title: "B3 - Radar",
       description:
         "Dashboard de monitoramento em tempo real para o mercado financeiro (B3). Desenvolvido em Python/Streamlit, focado na análise de Blue Chips, acompanhamento de índices e alertas inteligentes de preços.",
@@ -168,7 +182,7 @@ function Projects() {
     },
 
     {
-      id: 12,
+      id: 14,
       title: "SaaS - Agendamentos para Clínicas",
       description:
         "Plataforma de gestão de consultas (Next.js/Node.js). Arquitetura escalável com foco em performance, agendamento em tempo real.",
@@ -187,19 +201,19 @@ function Projects() {
       color: "blue",
     },
     {
-      id: 13,
-      title: "CRUD - Django",
-      description:
-        "Módulo de registro de usuários em Django/Python. Em desenvolvimento, focado em flexibilidade de dados, suporte a upload de mídia e integração com endereçamento.",
-      image: "/images/crud_django.png",
-      demoUrl: "",
-      githubUrl: "https://github.com/adriano-rocha/registration_system",
-      technologies: ["Python - Django"],
-      status: "Em Desenvolvimento",
-      color: "blue",
+      id: 15,
+      title: "New Gym",
+      description: "Site para academia usando React, CSS puro, responsivo.",
+      image: "/images/newgym-preview.png",
+      demoUrl: "https://new-gym-three.vercel.app/",
+      githubUrl: "https://github.com/adriano-rocha/new-gym",
+      technologies: ["React", "CSS", "Responsive"],
+      status: "Em desenvolvimento",
+      color: "green",
     },
+
     {
-      id: 14,
+      id: 16,
       title: "PetShop Page",
       description:
         "Site moderno para petshop desenvolvido com Next.js, Tailwind. Interface responsiva e otimizada para melhor experiência do usuário.",
@@ -208,10 +222,10 @@ function Projects() {
       githubUrl: "https://github.com/adriano-rocha/petshop-ts-next",
       technologies: ["Next.js", "TypeScript", "Tailwind"],
       status: "Finalizado",
-      color: "blue",
+      color: "yellow",
     },
     {
-      id: 15,
+      id: 17,
       title: "Dev Store (E-commerce Moderno)",
       description:
         "E-commerce moderno para demonstração de arquitetura escalável com **Next.js/TypeScript**, gerenciamento de estado e carrinho de compras.",
@@ -226,21 +240,23 @@ function Projects() {
         "Responsive",
       ],
       status: "Em desenvolvimento",
-      color: "blue",
+      color: "white",
     },
     {
-      id: 16,
-      title: "New Gym",
-      description: "Site para academia usando React, CSS puro, responsivo.",
-      image: "/images/newgym-preview.png",
-      demoUrl: "https://new-gym-three.vercel.app/",
-      githubUrl: "https://github.com/adriano-rocha/new-gym",
-      technologies: ["React", "CSS", "Responsive"],
-      status: "Em desenvolvimento",
-      color: "green",
-    },   
+      id: 18,
+      title: "CRUD - Django",
+      description:
+        "Módulo de registro de usuários em Django/Python. Em desenvolvimento, focado em flexibilidade de dados, suporte a upload de mídia e integração com endereçamento.",
+      image: "/images/crud_django.png",
+      demoUrl: "",
+      githubUrl: "https://github.com/adriano-rocha/registration_system",
+      technologies: ["Python - Django"],
+      status: "Em Desenvolvimento",
+      color: "blue",
+    },
+
     {
-      id: 17,
+      id: 19,
       title: "Staybnb",
       description:
         "Clone do Airbnb com funcionalidades de reserva e listagem de propriedades. Arquitetura fullstack com React, Tailwind e MongoDB.",
@@ -252,7 +268,7 @@ function Projects() {
       color: "green",
     },
     {
-      id: 18,
+      id: 20,
       title: "TaskFlow - Landing Page",
       description:
         "Landing page interativa para app de produtividade. Foco em UX/UI, alta performance e responsividade em todos os dispositivos.",
