@@ -135,7 +135,7 @@ function Projects() {
       id: 10,
       title: "LeadFlow - Sistemas de captação de leads",
       description:
-        "Sistema fullsatck de greção e qualificação de leads: raspagem automatizada do Google Maps (Python/Playwright) filtra negócios sem site prórpio e ordena por prioridade de contato, com um editor visual de fluxos (react Flow) para disparo automatizado de mensagens via WhatsApp.",
+        "Sistema fullsatck de geração e qualificação de leads: raspagem automatizada do Google Maps (Python/Playwright) filtra negócios sem site prórpio e ordena por prioridade de contato, com um editor visual de fluxos (react Flow) para disparo automatizado de mensagens via WhatsApp.",
       image: "/images/leadflow.png",
       demoUrl: "https://site-kerotur-jxe8.vercel.app/",
       githubUrl: "https://github.com/adriano-rocha/kerotur",
