@@ -133,6 +133,21 @@ function Projects() {
 
     {
       id: 10,
+      title: "LeadFlow - Sistemas de captação de leads",
+      description:
+        "Sistema fullsatck de greção e qualificação de leads: raspagem automatizada do Google Maps (Python/Playwright) filtra negócios sem site prórpio e ordena por prioridade de contato, com um editor visual de fluxos (react Flow) para disparo automatizado de mensagens via WhatsApp.",
+      image: "/images/leadflow.png",
+      demoUrl: "https://site-kerotur-jxe8.vercel.app/",
+      githubUrl: "https://github.com/adriano-rocha/kerotur",
+      technologies: [
+        "Node.js/Express, PostgreSQL (Prisma), React, Python/FastAPI, Evolution API",
+      ],
+      status: "Finalizado",
+      color: "blue",
+    },
+
+    {
+      id: 11,
       title: "Kerotur - Agência de Turismo",
       description:
         "Site moderno para agência de turismo com sistema de internacionalização e animações suaves usando AOS. Design responsivo e experiência premium.",
@@ -142,18 +157,6 @@ function Projects() {
       technologies: ["React", "Tailwind CSS", "i18n", "Responsive"],
       status: "Em Desenvolvimento",
       color: "yellow",
-    },
-    {
-      id: 11,
-      title: "To-Do List App",
-      description:
-        "Aplicação de lista de tarefas em React. Demonstração de gerenciamento de estado e persistência de dados local.",
-      image: "/images/todo-preview.png",
-      demoUrl: "https://to-do-ochre-xi.vercel.app",
-      githubUrl: "https://github.com/adriano-rocha/to-do",
-      technologies: ["React", "JavaScript", "CSS"],
-      status: "Finalizado",
-      color: "white",
     },
 
     {
@@ -183,6 +186,18 @@ function Projects() {
 
     {
       id: 14,
+      title: "To-Do List App",
+      description:
+        "Aplicação de lista de tarefas em React. Demonstração de gerenciamento de estado e persistência de dados local.",
+      image: "/images/todo-preview.png",
+      demoUrl: "https://to-do-ochre-xi.vercel.app",
+      githubUrl: "https://github.com/adriano-rocha/to-do",
+      technologies: ["React", "JavaScript", "CSS"],
+      status: "Finalizado",
+      color: "white",
+    },
+    {
+      id: 15,
       title: "SaaS - Agendamentos para Clínicas",
       description:
         "Plataforma de gestão de consultas (Next.js/Node.js). Arquitetura escalável com foco em performance, agendamento em tempo real.",
@@ -201,7 +216,7 @@ function Projects() {
       color: "blue",
     },
     {
-      id: 15,
+      id: 16,
       title: "New Gym",
       description: "Site para academia usando React, CSS puro, responsivo.",
       image: "/images/newgym-preview.png",
@@ -213,7 +228,7 @@ function Projects() {
     },
 
     {
-      id: 16,
+      id: 17,
       title: "PetShop Page",
       description:
         "Site moderno para petshop desenvolvido com Next.js, Tailwind. Interface responsiva e otimizada para melhor experiência do usuário.",
@@ -225,7 +240,7 @@ function Projects() {
       color: "yellow",
     },
     {
-      id: 17,
+      id: 18,
       title: "Dev Store (E-commerce Moderno)",
       description:
         "E-commerce moderno para demonstração de arquitetura escalável com **Next.js/TypeScript**, gerenciamento de estado e carrinho de compras.",
@@ -243,7 +258,7 @@ function Projects() {
       color: "white",
     },
     {
-      id: 18,
+      id: 19,
       title: "CRUD - Django",
       description:
         "Módulo de registro de usuários em Django/Python. Em desenvolvimento, focado em flexibilidade de dados, suporte a upload de mídia e integração com endereçamento.",
@@ -256,7 +271,7 @@ function Projects() {
     },
 
     {
-      id: 19,
+      id: 20,
       title: "Staybnb",
       description:
         "Clone do Airbnb com funcionalidades de reserva e listagem de propriedades. Arquitetura fullstack com React, Tailwind e MongoDB.",
@@ -268,7 +283,7 @@ function Projects() {
       color: "green",
     },
     {
-      id: 20,
+      id: 21,
       title: "TaskFlow - Landing Page",
       description:
         "Landing page interativa para app de produtividade. Foco em UX/UI, alta performance e responsividade em todos os dispositivos.",
