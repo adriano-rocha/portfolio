@@ -152,10 +152,10 @@ function Projects() {
       description:
         "Site moderno para agência de turismo com sistema de internacionalização e animações suaves usando AOS. Design responsivo e experiência premium.",
       image: "/images/kerotur.png",
-      demoUrl: "https://site-kerotur-jxe8.vercel.app/",
+      demoUrl: "ttps://www.kerotur.com.br/",
       githubUrl: "https://github.com/adriano-rocha/kerotur",
       technologies: ["React", "Tailwind CSS", "i18n", "Responsive"],
-      status: "Em Desenvolvimento",
+      status: "Finalizado",
       color: "yellow",
     },
 
@@ -171,8 +171,21 @@ function Projects() {
       status: "Finalizado",
       color: "red",
     },
-    {
+{
       id: 13,
+      title: "LP - Psicóloga",
+      description:
+        "Landing page para psicologa com Next.js, focado em conversão via whatsApp, seções de planos com toggle PIX/Cartão, FAQ, avaliação antropométrica e conformidade com LGPD.",
+      image: "/images/laura.png",
+      demoUrl: "https://landing-laura-psicologa.vercel.app",
+      githubUrl: "https://github.com/adriano-rocha/landing-psicologa",
+      technologies: ["Next.js", "TypeScript", "Tailwind", "Responsive"],
+      status: "Finalizado",
+      color: "gold",
+    },
+
+    {
+      id: 14,
       title: "B3 - Radar",
       description:
         "Dashboard de monitoramento em tempo real para o mercado financeiro (B3). Desenvolvido em Python/Streamlit, focado na análise de Blue Chips, acompanhamento de índices e alertas inteligentes de preços.",
@@ -185,7 +198,7 @@ function Projects() {
     },
 
     {
-      id: 14,
+      id: 15,
       title: "To-Do List App",
       description:
         "Aplicação de lista de tarefas em React. Demonstração de gerenciamento de estado e persistência de dados local.",
@@ -197,7 +210,7 @@ function Projects() {
       color: "white",
     },
     {
-      id: 15,
+      id: 16,
       title: "SaaS - Agendamentos para Clínicas",
       description:
         "Plataforma de gestão de consultas (Next.js/Node.js). Arquitetura escalável com foco em performance, agendamento em tempo real.",
@@ -216,7 +229,7 @@ function Projects() {
       color: "blue",
     },
     {
-      id: 16,
+      id: 17,
       title: "New Gym",
       description: "Site para academia usando React, CSS puro, responsivo.",
       image: "/images/newgym-preview.png",
@@ -228,7 +241,7 @@ function Projects() {
     },
 
     {
-      id: 17,
+      id: 18,
       title: "PetShop Page",
       description:
         "Site moderno para petshop desenvolvido com Next.js, Tailwind. Interface responsiva e otimizada para melhor experiência do usuário.",
@@ -240,7 +253,7 @@ function Projects() {
       color: "yellow",
     },
     {
-      id: 18,
+      id: 19,
       title: "Dev Store (E-commerce Moderno)",
       description:
         "E-commerce moderno para demonstração de arquitetura escalável com **Next.js/TypeScript**, gerenciamento de estado e carrinho de compras.",
@@ -258,7 +271,7 @@ function Projects() {
       color: "white",
     },
     {
-      id: 19,
+      id: 20,
       title: "CRUD - Django",
       description:
         "Módulo de registro de usuários em Django/Python. Em desenvolvimento, focado em flexibilidade de dados, suporte a upload de mídia e integração com endereçamento.",
@@ -271,7 +284,7 @@ function Projects() {
     },
 
     {
-      id: 20,
+      id: 21,
       title: "Staybnb",
       description:
         "Clone do Airbnb com funcionalidades de reserva e listagem de propriedades. Arquitetura fullstack com React, Tailwind e MongoDB.",
@@ -283,7 +296,7 @@ function Projects() {
       color: "green",
     },
     {
-      id: 21,
+      id: 22,
       title: "TaskFlow - Landing Page",
       description:
         "Landing page interativa para app de produtividade. Foco em UX/UI, alta performance e responsividade em todos os dispositivos.",
