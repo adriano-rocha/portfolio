@@ -64,7 +64,7 @@ function Projects() {
       color: "red",
     },
     {
-      id: 5,
+      id: 4,
       title: "CRUD Fullstack (Gestão de Dados)",
       description:
         "Solução completa de gestão de dados com API e interface integradas. Demonstração de arquitetura **Node.js/Express** e persistência em **MongoDB**.",
@@ -76,7 +76,7 @@ function Projects() {
       color: "yellow",
     },
     {
-      id: 6,
+      id: 5,
       title: "i9 Criação de Sites",
       description:
         "🚀 Portfolio institucional da i9 — Site de alta performance com SSG, SEO otimizado e animações com Framer Motion. Lighthouse Score 95+",
@@ -89,7 +89,7 @@ function Projects() {
     },
 
     {
-      id: 7,
+      id: 6,
       title: "Quiroclínica (Site Institucional)",
       description:
         "Site institucional de **alta conversão** com design profissional e responsivo, focado em credibilidade e geração de agendamentos. Inclui sistema de **internacionalização (i18n)** para múltiplos idiomas.",
@@ -101,7 +101,7 @@ function Projects() {
       color: "green",
     },
     {
-      id: 8,
+      id: 7,
       title: "Pizzaria (Stripe)",
       description: "Site de uma pizzaria fullstack com Stripe.",
       image: "/images/pizzaria.png",
@@ -119,7 +119,7 @@ function Projects() {
       color: "red",
     },
     {
-      id: 9,
+      id: 8,
       title: "Silva Advogados - One-Page",
       description:
         "Site institucional para escritório de advocacia — Next, TypeScript, Tailwind CSS, SEO, CTA.",
@@ -132,7 +132,7 @@ function Projects() {
     },
 
     {
-      id: 10,
+      id: 9,
       title: "LeadFlow - Sistemas de captação de leads",
       description:
         "Sistema fullsatck de geração e qualificação de leads: raspagem automatizada do Google Maps (Python/Playwright) filtra negócios sem site prórpio e ordena por prioridade de contato, com um editor visual de fluxos (react Flow) para disparo automatizado de mensagens via WhatsApp.",
@@ -144,6 +144,18 @@ function Projects() {
       ],
       status: "Finalizado",
       color: "blue",
+    },
+    {
+      id: 10,
+      title: "LP - Psicóloga",
+      description:
+        "Landing page para psicologa com Next.js, focado em conversão via whatsApp, seções de planos com toggle PIX/Cartão, FAQ, avaliação antropométrica e conformidade com LGPD.",
+      image: "/images/laura.png",
+      demoUrl: "https://landing-laura-psicologa.vercel.app",
+      githubUrl: "https://github.com/adriano-rocha/landing-psicologa",
+      technologies: ["Next.js", "TypeScript", "Tailwind", "Responsive"],
+      status: "Finalizado",
+      color: "gold",
     },
 
     {
@@ -171,21 +183,9 @@ function Projects() {
       status: "Finalizado",
       color: "red",
     },
-{
-      id: 13,
-      title: "LP - Psicóloga",
-      description:
-        "Landing page para psicologa com Next.js, focado em conversão via whatsApp, seções de planos com toggle PIX/Cartão, FAQ, avaliação antropométrica e conformidade com LGPD.",
-      image: "/images/laura.png",
-      demoUrl: "https://landing-laura-psicologa.vercel.app",
-      githubUrl: "https://github.com/adriano-rocha/landing-psicologa",
-      technologies: ["Next.js", "TypeScript", "Tailwind", "Responsive"],
-      status: "Finalizado",
-      color: "gold",
-    },
 
     {
-      id: 14,
+      id: 13,
       title: "B3 - Radar",
       description:
         "Dashboard de monitoramento em tempo real para o mercado financeiro (B3). Desenvolvido em Python/Streamlit, focado na análise de Blue Chips, acompanhamento de índices e alertas inteligentes de preços.",
@@ -196,7 +196,18 @@ function Projects() {
       status: "Em desenvolvimento",
       color: "green",
     },
-
+    {
+      id: 14,
+      title: "LP - Dentista",
+      description:
+        "Landing page para clínica de odontologia estética com Next.js, focada em conversão via WhatsApp, seções de Sobre, Como Funciona, Depoimentos, FAQ com parcelamento, Google Maps integrado e SEO otimizado.",
+      image: "/images/dentista.png",
+      demoUrl: "https://site-lp-dentista.vercel.app",
+      githubUrl: "https://github.com/adriano-rocha/LP-Dentista",
+      technologies: ["Next.js", "TypeScript", "Tailwind", "Responsive"],
+      status: "Finalizado",
+      color: "blue",
+    },
     {
       id: 15,
       title: "To-Do List App",
