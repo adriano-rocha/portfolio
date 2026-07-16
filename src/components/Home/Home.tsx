@@ -12,8 +12,8 @@ function Home() {
 
     if (password === "1723") {
       const link = document.createElement("a");
-      link.href = "/certificates/adriano_rocha_cv.docx";
-      link.download = "adriano_rocha_cv.docx";
+      link.href = "/certificates/adriano_rocha.pdf";
+      link.download = "adriano_rocha.pdf";
       link.click();
     } else if (password) {
       alert(
