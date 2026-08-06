@@ -2,29 +2,58 @@ function About() {
   return (
     <section
       id="about"
-      className="flex flex-col items-center justify-center px-8 max-w-4xl mx-auto py-16"
+      className="px-4 sm:px-8 py-16 lg:py-24 max-w-3xl mx-auto text-center"
     >
-      <h2
-        className="text-3xl font-bold text-emerald-400 mb-8"
+      <span
+        className="text-emerald-400 text-sm font-mono tracking-widest uppercase"
         data-aos="fade-up"
         data-aos-duration="800"
       >
-        Sobre Mim
+        Sobre mim
+      </span>
+
+      <h2
+        className="text-3xl sm:text-4xl font-bold text-white mt-2 mb-6 leading-tight"
+        data-aos="fade-up"
+        data-aos-delay="100"
+        data-aos-duration="800"
+      >
+        Desenvolvimento com foco em resultado
       </h2>
 
       <p
-        className="text-gray-100 max-w-2xl text-center text-lg leading-relaxed"
+        className="text-gray-300 text-base sm:text-lg leading-relaxed mb-4"
         data-aos="fade-up"
         data-aos-delay="200"
         data-aos-duration="800"
       >
-        <strong>
-          Desenvolvimento que resolve problemas e garante o crescimento do seu
-          negócio. Eu planejo, crio e entrego sistemas e sites completos que
-          funcionam perfeitamente do conceito à implementação final. Sua ideia
-          ganha vida com uma base técnica robusta, segura e fácil de usar.
-        </strong>
+        Sou formado em Análise e Desenvolvimento de Sistemas e trabalho com
+        desenvolvimento full-stack desde o planejamento à entrega de sistemas e
+        sites que funcionam bem tanto na base técnica quanto na experiência
+        de uso.
       </p>
+      <p
+        className="text-gray-300 text-base sm:text-lg leading-relaxed"
+        data-aos="fade-up"
+        data-aos-delay="300"
+        data-aos-duration="800"
+      >
+        Também atuo com gestão de tráfego pago (Google Ads e Analytics), o
+        que me dá uma visão mais completa de cada projeto: não só como
+        construir, mas como ele se comporta depois de publicado.
+      </p>
+
+      <a
+        href="https://adcode-lh.vercel.app/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-flex items-center gap-2 mt-8 text-emerald-400 hover:text-emerald-300 text-sm font-medium transition-colors"
+        data-aos="fade-up"
+        data-aos-delay="400"
+        data-aos-duration="800"
+      >
+        Conheça a ADCode LH →
+      </a>
     </section>
   );
 }
