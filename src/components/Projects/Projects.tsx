@@ -69,6 +69,7 @@ const colorMap: Record<
     button: "bg-yellow-400",
     buttonHover: "hover:bg-yellow-500",
   },
+
   white: {
     border: "border-gray-200",
     hoverBg: "hover:bg-white/10",
@@ -129,6 +130,26 @@ function Projects() {
       status: "Finalizado",
       color: "gold",
     },
+    {
+      id: 3,
+      title: "Ad-Guardian - Automação de Tráfego Pago",
+      description:
+        "Sistema autônomo de Growth Operations que monitora a performance de anúncios de hora em hora e envia alertas acionáveis no Telegram para otimização e controle de custos.",
+      image: "/images/ad-guardian.png",
+      demoUrl: "",
+      githubUrl: "https://github.com/adriano-rocha/Ad-Guardian",
+      technologies: [
+        "JavaScript",
+        "Python",
+        "n8n",
+        "Google Sheets API",
+        "Telegram API",
+        "Webhooks",
+      ],
+      status: "Finalizado",
+      color: "white",
+    },
+
     {
       id: 3,
       title: "Controle de Gastos",
@@ -386,18 +407,6 @@ function Projects() {
       color: "white",
     },
 
-    {
-      id: 23,
-      title: "CRUD - Django",
-      description:
-        "Módulo de registro de usuários em Django/Python. Em desenvolvimento, focado em flexibilidade de dados, suporte a upload de mídia e integração com endereçamento.",
-      image: "/images/crud_django.png",
-      demoUrl: "",
-      githubUrl: "https://github.com/adriano-rocha/registration_system",
-      technologies: ["Python", "Django"],
-      status: "Em desenvolvimento",
-      color: "blue",
-    },
     {
       id: 25,
       title: "TaskFlow - Landing Page",
