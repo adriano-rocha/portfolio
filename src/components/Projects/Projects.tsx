@@ -94,44 +94,30 @@ interface Project {
 function Projects() {
   const [isOpen, setIsOpen] = useState(false);
 
-  // Dados limpos: technologies virou array de strings individuais (id 1 estava
-  // quebrado pro .map), typos corrigidos ("fullsatck", "prórpio"), URL do
-  // Kerotur corrigida ("ttps://" -> "https://"), emoji removido do dado (id 17).
   const projects: Project[] = [
     {
       id: 1,
-      title: "LeadFlow - Sistema de captação de leads",
+      title: "AgendaClin - Plataforma de Agendamento Clínico",
       description:
-        "Sistema fullstack de geração e qualificação de leads: raspagem automatizada do Google Maps (Python/Playwright) filtra negócios sem site próprio e ordena por prioridade de contato, com um editor visual de fluxos (React Flow) para disparo automatizado de mensagens via WhatsApp.",
-      image: "/images/leadflow.png",
-      demoUrl: "https://site-kerotur-jxe8.vercel.app/",
-      githubUrl: "https://github.com/adriano-rocha/kerotur",
+        "Sistema fullstack de agendamento para clínica multiespecialidade, com Clean Architecture no backend (domain/use-cases/infra), autenticação JWT, e prevenção de conflito de horário por profissional e paciente. Cobertura de testes unitários e de integração (Jest + Supertest), duas falhas reais de autorização identificadas e corrigidas, deploy containerizado com Docker.",
+      image: "/images/agendaclin.png",
+      demoUrl: "https://agendaclin-sp.vercel.app",
+      githubUrl: "https://github.com/adriano-rocha/agendaclin",
       technologies: [
+        "React",
+        "TypeScript",
         "Node.js",
         "Express",
         "PostgreSQL",
         "Prisma",
-        "React",
-        "Python",
-        "FastAPI",
+        "Docker",
+        "Jest",
       ],
       status: "Finalizado",
       color: "blue",
     },
     {
       id: 2,
-      title: "Monarca Jóias - Landing page premium",
-      description:
-        "Landing page premium para joalheria — React, TypeScript, Tailwind CSS, Framer Motion e i18n (PT/EN/ES).",
-      image: "/images/monarca.png",
-      demoUrl: "https://monarcajoias.com.br",
-      githubUrl: "https://github.com/adriano-rocha/monarca-joias",
-      technologies: ["React", "TypeScript", "Tailwind CSS", "i18n"],
-      status: "Finalizado",
-      color: "gold",
-    },
-    {
-      id: 3,
       title: "Ad-Guardian - Automação de Tráfego Pago",
       description:
         "Sistema autônomo de Growth Operations que monitora a performance de anúncios de hora em hora e envia alertas acionáveis no Telegram para otimização e controle de custos.",
@@ -149,9 +135,40 @@ function Projects() {
       status: "Finalizado",
       color: "white",
     },
-
     {
       id: 3,
+      title: "LeadFlow - Sistema de captação de leads",
+      description:
+        "Sistema fullstack de geração e qualificação de leads: raspagem automatizada do Google Maps (Python/Playwright) filtra negócios sem site próprio e ordena por prioridade de contato, com um editor visual de fluxos (React Flow) para disparo automatizado de mensagens via WhatsApp.",
+      image: "/images/leadflow.png",
+      demoUrl: "https://lead-flowhq.vercel.app/",
+      githubUrl: "https://github.com/adriano-rocha/leadflow",
+      technologies: [
+        "Node.js",
+        "Express",
+        "PostgreSQL",
+        "Prisma",
+        "React",
+        "Python",
+        "FastAPI",
+      ],
+      status: "Finalizado",
+      color: "green",
+    },
+    {
+      id: 4,
+      title: "Monarca Jóias - Landing page premium",
+      description:
+        "Landing page premium para joalheria — React, TypeScript, Tailwind CSS, Framer Motion e i18n (PT/EN/ES).",
+      image: "/images/monarca.png",
+      demoUrl: "https://monarcajoias.com.br",
+      githubUrl: "https://github.com/adriano-rocha/monarca-joias",
+      technologies: ["React", "TypeScript", "Tailwind CSS", "i18n"],
+      status: "Finalizado",
+      color: "gold",
+    },
+    {
+      id: 5,
       title: "Controle de Gastos",
       description:
         "Aplicação para controle financeiro pessoal com dashboard interativo em React, focada em usabilidade e design limpo.",
@@ -163,7 +180,7 @@ function Projects() {
       color: "green",
     },
     {
-      id: 4,
+      id: 6,
       title: "Landing page para Psicóloga",
       description:
         "Landing page para psicóloga com Next.js, focada em conversão via WhatsApp, seções de planos com toggle PIX/Cartão, FAQ, avaliação antropométrica e conformidade com LGPD.",
@@ -175,7 +192,7 @@ function Projects() {
       color: "gold",
     },
     {
-      id: 5,
+      id: 7,
       title: "ADcode-LH",
       description:
         "Site institucional (Next.js 14 + TypeScript) da AdCode LH — landing page para captação de leads em desenvolvimento web, sites institucionais e performance em tráfego pago (Google Ads). Lighthouse Score 95+.",
@@ -187,7 +204,7 @@ function Projects() {
       color: "blue",
     },
     {
-      id: 6,
+      id: 8,
       title: "Silva Advogados - One-Page",
       description:
         "Site institucional para escritório de advocacia — Next.js, TypeScript, Tailwind CSS, SEO, CTA.",
@@ -199,7 +216,7 @@ function Projects() {
       color: "gold",
     },
     {
-      id: 7,
+      id: 9,
       title: "Quiroclínica (Site Institucional)",
       description:
         "Site institucional de alta conversão com design profissional e responsivo, focado em credibilidade e geração de agendamentos. Inclui sistema de internacionalização (i18n) para múltiplos idiomas.",
@@ -211,7 +228,7 @@ function Projects() {
       color: "green",
     },
     {
-      id: 8,
+      id: 10,
       title: "Pizzaria (Stripe)",
       description:
         "Site de uma pizzaria fullstack com checkout de pagamento integrado via Stripe.",
@@ -223,7 +240,7 @@ function Projects() {
       color: "red",
     },
     {
-      id: 9,
+      id: 11,
       title: "B3 Radar",
       description:
         "Dashboard de monitoramento em tempo real para o mercado financeiro (B3). Desenvolvido em Python/Streamlit, focado na análise de Blue Chips, acompanhamento de índices e alertas inteligentes de preços.",
@@ -235,7 +252,7 @@ function Projects() {
       color: "green",
     },
     {
-      id: 10,
+      id: 12,
       title: "Marcele Nutri",
       description:
         "Landing page em Next.js para nutricionista, com identidade visual personalizada, seções de planos com toggle PIX/Cartão, FAQ, avaliação antropométrica e conformidade com LGPD.",
@@ -247,7 +264,7 @@ function Projects() {
       color: "red",
     },
     {
-      id: 11,
+      id: 13,
       title: "Conserta Tech",
       description: "Site para loja de consertos de celulares e computadores.",
       image: "/images/conserta-tech.png",
@@ -259,7 +276,7 @@ function Projects() {
     },
 
     {
-      id: 12,
+      id: 14,
       title: "Auto Brilho",
       description:
         "Site em React/Vite para loja de higienização automotiva, focado em velocidade de carregamento e SEO.",
@@ -272,7 +289,7 @@ function Projects() {
     },
 
     {
-      id: 13,
+      id: 15,
       title: "Kerotur - Agência de Turismo",
       description:
         "Site moderno para agência de turismo com sistema de internacionalização e animações suaves usando AOS. Design responsivo e experiência premium.",
@@ -284,7 +301,7 @@ function Projects() {
       color: "yellow",
     },
     {
-      id: 14,
+      id: 16,
       title: "Barbearia Kings",
       description:
         "Landing page premium para barbearia masculina com agendamento online via WhatsApp, galeria de cortes, depoimentos e localização integrada. Design moderno focado em atrair novos clientes.",
@@ -297,7 +314,7 @@ function Projects() {
     },
 
     {
-      id: 15,
+      id: 17,
       title: "Landing page - Dentista",
       description:
         "Landing page para clínica de odontologia estética com Next.js, focada em conversão via WhatsApp, seções de Sobre, Como Funciona, Depoimentos, FAQ com parcelamento, Google Maps integrado e SEO otimizado.",
@@ -309,7 +326,7 @@ function Projects() {
       color: "blue",
     },
     {
-      id: 16,
+      id: 18,
       title: "PetShop Page",
       description:
         "Site moderno para petshop desenvolvido com Next.js e Tailwind. Interface responsiva e otimizada para melhor experiência do usuário.",
@@ -322,7 +339,7 @@ function Projects() {
     },
 
     {
-      id: 17,
+      id: 19,
       title: "i9 Criação de Sites",
       description:
         "Portfólio institucional da i9 — site de alta performance com SSG, SEO otimizado e animações com Framer Motion. Lighthouse Score 95+.",
@@ -334,7 +351,7 @@ function Projects() {
       color: "blue",
     },
     {
-      id: 18,
+      id: 20,
       title: "New Gym",
       description: "Site para academia usando React e CSS puro, responsivo.",
       image: "/images/newgym-preview.png",
@@ -345,7 +362,7 @@ function Projects() {
       color: "green",
     },
     {
-      id: 19,
+      id: 21,
       title: "Dev Store (E-commerce Moderno)",
       description:
         "E-commerce moderno para demonstração de arquitetura escalável com Next.js/TypeScript, gerenciamento de estado e carrinho de compras.",
@@ -363,7 +380,7 @@ function Projects() {
       color: "white",
     },
     {
-      id: 20,
+      id: 22,
       title: "SaaS - Agendamentos para Clínicas",
       description:
         "Plataforma de gestão de consultas (Next.js/Node.js). Arquitetura escalável com foco em performance e agendamento em tempo real.",
@@ -383,7 +400,7 @@ function Projects() {
     },
 
     {
-      id: 12,
+      id: 23,
       title: "CRUD Fullstack (Gestão de Dados)",
       description:
         "Solução completa de gestão de dados com API e interface integradas. Demonstração de arquitetura Node.js/Express e persistência em MongoDB.",
@@ -395,7 +412,7 @@ function Projects() {
       color: "yellow",
     },
     {
-      id: 18,
+      id: 24,
       title: "To-Do List App",
       description:
         "Aplicação de lista de tarefas em React. Demonstração de gerenciamento de estado e persistência de dados local.",
